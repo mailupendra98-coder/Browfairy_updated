@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <link rel="icon" href="images/favicon-Browfairy Logo.png?v=4" type="image/png">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Scrolling Services</title>
+  <meta name="robots" content="noindex, nofollow">
+    <link rel="icon" href="images/favicon-Browfairy Logo.png?v=4" type="image/png">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap" rel="stylesheet">
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background-color: #fdf6f5; /* Match the original background */
+        }
+        
+        .marquee-container {
+            width: 100%;
+            overflow: hidden;
+            white-space: nowrap;
+            background-color: #fdf6f5;
+            padding: 20px 0; /* Add some vertical padding for better spacing */
+        }
+
+        .marquee-text {
+            display: inline-block;
+            padding-left: 100%;
+            color: gold;
+            font-size: 100px;
+            font-weight: bold;
+            font-family: 'Poppins', sans-serif;
+            animation: marquee 20s linear infinite;
+        }
+
+        @keyframes marquee {
+            0% { transform: translateX(0); }
+            100% { transform: translateX(-100%); }
+        }
+    </style>
+</head>
+<body>
+
+<div class="marquee-container">
+    <div class="marquee-text">our services our services our services our servicess</div>
+</div>
+
+
+<script id="lazy-bg-video">
+(function () {
+  function loadVideo(video) {
+    if (!video || video.getAttribute("data-loaded") === "1") {
+      if (video && video.paused) {
+        var play = video.play();
+        if (play && play.catch) play.catch(function () {});
+      }
+      return;
+    }
+    var source = video.querySelector("source[data-src]");
+    if (source && !source.getAttribute("src")) {
+      source.setAttribute("src", source.getAttribute("data-src"));
+    }
+    video.setAttribute("data-loaded", "1");
+    if (typeof video.load === "function") video.load();
+    var playPromise = video.play();
+    if (playPromise && playPromise.catch) playPromise.catch(function () {});
+  }
+
+  function init() {
+    var isMobile = window.matchMedia("(max-width: 1024px)").matches;
+    var desktop = document.getElementById("bg-video-desktop");
+    var mobile = document.getElementById("bg-video-mobile");
+    var single = document.getElementById("bg-video");
+    if (desktop || mobile) {
+      loadVideo(isMobile ? mobile : desktop);
+    } else if (single) {
+      loadVideo(single);
+    }
+
+    var serviceVideo = document.getElementById("service-video");
+    if (serviceVideo) loadVideo(serviceVideo);
+
+    if (!("IntersectionObserver" in window)) return;
+    var io = new IntersectionObserver(function (entries) {
+      entries.forEach(function (entry) {
+        var video = entry.target.tagName === "VIDEO" ? entry.target : entry.target.querySelector("video");
+        if (!video) return;
+        if (entry.isIntersecting) loadVideo(video);
+        else if (!video.paused) video.pause();
+      });
+    }, { threshold: 0.35 });
+
+    function observe(root) {
+      if (!root) return;
+      root.querySelectorAll("video").forEach(function (v) { io.observe(v); });
+    }
+    document.querySelectorAll(".slide video").forEach(function (v) { io.observe(v); });
+    var mobileWrap = document.getElementById("mobile-services-container");
+    if (mobileWrap) {
+      observe(mobileWrap);
+      new MutationObserver(function () { observe(mobileWrap); }).observe(mobileWrap, { childList: true, subtree: true });
+    }
+  }
+
+  if (document.readyState === "loading") {
+    document.addEventListener("DOMContentLoaded", init);
+  } else {
+    init();
+  }
+})();
+</script>
+
+</body>
+</html>

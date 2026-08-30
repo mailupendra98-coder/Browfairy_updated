@@ -1,0 +1,441 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>All Services | Permanent Makeup & Skin Treatments | Browfairy Hyderabad</title>
+  <meta name="description" content="Explore all services at Browfairy Hyderabad – microblading, nano brows, ombre brows, lip blush, lash lift, brow lamination, hydrafacial and chemical peels.">
+  <meta name="robots" content="index, follow">
+  <link rel="canonical" href="https://browfairypmu.com/services.html">
+  <link rel="icon" href="images/favicon-Browfairy Logo.png?v=4" type="image/png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap" rel="stylesheet">
+
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background: #fdf6f5;
+    }
+
+    .container {
+      display: flex;
+      min-height: 100vh;
+      overflow: hidden;
+    }
+
+    .left-panel {
+      width: 35%;
+      padding: 40px;
+      box-sizing: border-box;
+      background: #fdf6f5;
+      position: fixed;
+      height: 100vh;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+    }
+
+    .left-panel p {
+      margin: 10px 0;
+      font-size: 1rem;
+    }
+
+    .left-panel h2 {
+      font-size: 2.5rem;
+      margin: 0;
+      font-family: 'Poppins', sans-serif;
+      font-weight: 700;
+      text-transform: capitalize;
+    }
+
+    .left-panel .price {
+      font-weight: bold;
+      color: #d59c8b;
+      margin-top: 5px;
+    }
+
+    .left-panel a.service-link {
+      color: inherit;
+      text-decoration: none;
+    }
+
+    .left-panel a.service-link:hover {
+      color: #d59c8b;
+    }
+
+    .right-panel {
+      margin-left: 35%;
+      width: 65%;
+      overflow-y: auto;
+      height: 100vh;
+      scrollbar-width: none;
+    }
+
+    .slide {
+      height: 80vh;
+      position: relative;
+    }
+
+    .slide img,
+    .slide video {
+      width: 100%;
+      height: 60%;
+      object-fit: cover;
+      border-radius: 1px;
+    }
+
+    .video-overlay {
+      position: absolute;
+      top: 350px;
+      right: -1px;
+      background: white;
+      padding: 30px;
+      max-width: 700px;
+      height: 200px;
+      overflow-y: hidden;
+      box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+      border-radius: 1px;
+    }
+
+    .video-overlay h3 {
+      margin-top: 0;
+      font-family: 'Poppins', sans-serif;
+      font-weight: 700;
+      font-size: 2rem;
+      padding: 10px;
+      text-transform: capitalize;
+    }
+
+    .video-overlay h3 a {
+      color: inherit;
+      text-decoration: none;
+    }
+
+    .video-overlay h3 a:hover {
+      color: #d59c8b;
+    }
+
+    @media (max-width: 768px) {
+      .container {
+        flex-direction: column;
+        overflow: auto;
+      }
+      .left-panel,
+      .right-panel {
+        width: 100%;
+        position: static;
+        margin: 0;
+        height: auto;
+      }
+      .left-panel {
+        height: auto;
+        padding: 24px 20px;
+      }
+      .video-overlay {
+        position: static;
+        margin-top: 20px;
+        height: auto;
+        overflow-y: auto;
+      }
+    }
+
+    .marquee-container {
+      width: 100%;
+      overflow: hidden;
+      white-space: nowrap;
+      background-color: #fdf6f5;
+    }
+
+    .marquee-text {
+      display: inline-block;
+      padding-left: 100%;
+      color: gold;
+      font-size: 100px;
+      font-weight: bold;
+      font-family: 'Poppins', sans-serif;
+      animation: marquee 20s linear infinite;
+    }
+
+    @keyframes marquee {
+      0% { transform: translateX(0); }
+      100% { transform: translateX(-100%); }
+    }
+
+    @keyframes swingUpDown {
+      0%   { transform: translateY(0); }
+      25%  { transform: translateY(-10px); }
+      50%  { transform: translateY(10px); }
+      75%  { transform: translateY(-5px); }
+      100% { transform: translateY(0); }
+    }
+
+    .swing-overlay {
+      animation: swingUpDown 1s ease;
+    }
+  </style>
+</head>
+<body>
+
+<div class="container">
+  <div class="left-panel">
+    <p id="page-count">1/12</p>
+    <h2 id="service-title"><a class="service-link" id="service-title-link" href="microblading.html">Microblading</a></h2>
+    <p id="service-price" class="price"></p>
+  </div>
+
+  <div class="right-panel" id="rightPanel">
+    <div class="slide">
+      <video preload="none" muted loop playsinline>
+        <source data-src="videos/microblading.mp4" type="video/mp4">
+        Your browser does not support the video tag.
+      </video>
+      <div class="video-overlay">
+        <h3><a href="microblading.html">Microblading</a></h3>
+        <p>Microblading is a manual technique considered to be semi-permanent makeup or cosmetic tattoo, also known as eyebrow embroidery, microstroking or 3D brows.</p>
+      </div>
+    </div>
+
+    <div class="slide">
+      <video preload="none" muted loop playsinline>
+        <source data-src="videos/combination brows.mp4" type="video/mp4">
+        Your browser does not support the video tag.
+      </video>
+      <div class="video-overlay">
+        <h3><a href="combination-brows.html">Combination Brows</a></h3>
+        <p>Combination brows blend microblading with a soft, powdered look for a natural yet defined brow.</p>
+      </div>
+    </div>
+
+    <div class="slide">
+      <video preload="none" muted loop playsinline>
+        <source data-src="videos/ombre.mp4" type="video/mp4">
+        Your browser does not support the video tag.
+      </video>
+      <div class="video-overlay">
+        <h3><a href="ombre-brows.html">Ombré Powder Brows</a></h3>
+        <p>Ombre brows are shaded brows that darken at the tail and lighten at the front, creating a seamless gradient effect.</p>
+      </div>
+    </div>
+
+    <div class="slide">
+      <video preload="none" muted loop playsinline>
+        <source data-src="videos/dark lip neutralization.mp4" type="video/mp4">
+        Your browser does not support the video tag.
+      </video>
+      <div class="video-overlay">
+        <h3><a href="lip-neutralization.html">Lip Neutralization</a></h3>
+        <p>A specialized treatment to correct dark lips, neutralizing unwanted cool tones and restoring a more balanced lip color.</p>
+      </div>
+    </div>
+
+    <div class="slide">
+      <video preload="none" muted loop playsinline>
+        <source data-src="videos/lip blush.mp4" type="video/mp4">
+        Your browser does not support the video tag.
+      </video>
+      <div class="video-overlay">
+        <h3><a href="lip-blush.html">Lip Blush</a></h3>
+        <p>A semi-permanent cosmetic tattoo that enhances the natural shape and color of your lips, giving them a youthful, fuller look.</p>
+      </div>
+    </div>
+
+    <div class="slide">
+      <video preload="none" muted loop playsinline>
+        <source data-src="videos/lash liner.mp4" type="video/mp4">
+        Your browser does not support the video tag.
+      </video>
+      <div class="video-overlay">
+        <h3><a href="lash-liner.html">Lash Liner</a></h3>
+        <p>A subtle, natural-looking permanent eyeliner applied directly into the lash line to create the illusion of thicker, darker lashes.</p>
+      </div>
+    </div>
+
+    <div class="slide">
+      <video preload="none" muted loop playsinline>
+        <source data-src="videos/nano brows.mp4" type="video/mp4">
+        Your browser does not support the video tag.
+      </video>
+      <div class="video-overlay">
+        <h3><a href="nano-brows.html">Nano Brows</a></h3>
+        <p>An advanced technique using a single needle machine to create very fine, crisp hair strokes that mimic natural eyebrow hairs.</p>
+      </div>
+    </div>
+
+    <div class="slide">
+      <video preload="none" muted loop playsinline>
+        <source data-src="videos/nano combination brows.mp4" type="video/mp4">
+        Your browser does not support the video tag.
+      </video>
+      <div class="video-overlay">
+        <h3><a href="nano-combination-brows.html">Nano Combination Brows</a></h3>
+        <p>A combination of nano hairstrokes and machine shading for a textured, realistic, and defined brow look.</p>
+      </div>
+    </div>
+
+    <div class="slide">
+      <video preload="none" muted loop playsinline>
+        <source data-src="videos/lash lift & tint.mp4" type="video/mp4">
+        Your browser does not support the video tag.
+      </video>
+      <div class="video-overlay">
+        <h3><a href="lash-lift.html">Lash Lift and Tint</a></h3>
+        <p>A semi-permanent treatment that curls and darkens your natural lashes, making them appear longer and more voluminous without extensions.</p>
+      </div>
+    </div>
+
+    <div class="slide">
+      <video preload="none" muted loop playsinline>
+        <source data-src="videos/eyebrows lamination & tint.mp4" type="video/mp4">
+        Your browser does not support the video tag.
+      </video>
+      <div class="video-overlay">
+        <h3><a href="brow-lamination.html">Brow Lamination and Tint</a></h3>
+        <p>A treatment that straightens and lifts brow hairs, giving them a fuller, more defined shape, followed by tinting to enhance the color.</p>
+      </div>
+    </div>
+
+    <div class="slide">
+      <video preload="none" muted loop playsinline>
+        <source data-src="videos/hydrafacial.mp4" type="video/mp4">
+        Your browser does not support the video tag.
+      </video>
+      <div class="video-overlay">
+        <h3><a href="hydrafacial.html">Hydrafacials</a></h3>
+        <p>An advanced non-invasive skin treatment that deeply cleanses, exfoliates, extracts impurities and hydrates the skin for an instantly refreshed, glowing complexion.</p>
+      </div>
+    </div>
+
+    <div class="slide">
+      <video preload="none" muted loop playsinline>
+        <source data-src="videos/chemical-peels.mp4" type="video/mp4">
+        Your browser does not support the video tag.
+      </video>
+      <div class="video-overlay">
+        <h3><a href="chemical-peels.html">Chemical Peels</a></h3>
+        <p>A professional skin treatment that uses chemical solutions to improve skin texture, tone and clarity by removing damaged outer layers.</p>
+      </div>
+    </div>
+  </div>
+</div>
+
+<script>
+  const services = [
+    { title: "Microblading", price: "", href: "microblading.html" },
+    { title: "Combination Brows", price: "", href: "combination-brows.html" },
+    { title: "Ombré Powder Brows", price: "", href: "ombre-brows.html" },
+    { title: "Lip Neutralization", price: "", href: "lip-neutralization.html" },
+    { title: "Lip Blush", price: "", href: "lip-blush.html" },
+    { title: "Lash Liner", price: "", href: "lash-liner.html" },
+    { title: "Nano Brows", price: "", href: "nano-brows.html" },
+    { title: "Nano Combination Brows", price: "", href: "nano-combination-brows.html" },
+    { title: "Lash Lift and Tint", price: "", href: "lash-lift.html" },
+    { title: "Brow Lamination and Tint", price: "", href: "brow-lamination.html" },
+    { title: "Hydrafacials", price: "", href: "hydrafacial.html" },
+    { title: "Chemical Peels", price: "", href: "chemical-peels.html" }
+  ];
+
+  const totalPages = services.length;
+  const rightPanel = document.getElementById("rightPanel");
+  const pageCount = document.getElementById("page-count");
+  const serviceTitle = document.getElementById("service-title");
+  const serviceTitleLink = document.getElementById("service-title-link");
+  const servicePrice = document.getElementById("service-price");
+  const slides = document.querySelectorAll(".slide");
+
+  const observer = new IntersectionObserver((entries) => {
+    entries.forEach(entry => {
+      if (entry.isIntersecting) {
+        const index = [...slides].indexOf(entry.target);
+        if (index !== -1) {
+          const service = services[index];
+          pageCount.textContent = `${index + 1}/${totalPages}`;
+          serviceTitleLink.textContent = service.title;
+          serviceTitleLink.setAttribute("href", service.href);
+          servicePrice.textContent = service.price;
+
+          const overlay = entry.target.querySelector('.video-overlay');
+          overlay.classList.add('swing-overlay');
+
+          setTimeout(() => {
+            overlay.classList.remove('swing-overlay');
+          }, 1000);
+        }
+      }
+    });
+  }, {
+    root: rightPanel,
+    threshold: 0.5
+  });
+
+  slides.forEach(slide => observer.observe(slide));
+</script>
+
+
+<script id="lazy-bg-video">
+(function () {
+  function loadVideo(video) {
+    if (!video || video.getAttribute("data-loaded") === "1") {
+      if (video && video.paused) {
+        var play = video.play();
+        if (play && play.catch) play.catch(function () {});
+      }
+      return;
+    }
+    var source = video.querySelector("source[data-src]");
+    if (source && !source.getAttribute("src")) {
+      source.setAttribute("src", source.getAttribute("data-src"));
+    }
+    video.setAttribute("data-loaded", "1");
+    if (typeof video.load === "function") video.load();
+    var playPromise = video.play();
+    if (playPromise && playPromise.catch) playPromise.catch(function () {});
+  }
+
+  function init() {
+    var isMobile = window.matchMedia("(max-width: 1024px)").matches;
+    var desktop = document.getElementById("bg-video-desktop");
+    var mobile = document.getElementById("bg-video-mobile");
+    var single = document.getElementById("bg-video");
+    if (desktop || mobile) {
+      loadVideo(isMobile ? mobile : desktop);
+    } else if (single) {
+      loadVideo(single);
+    }
+
+    var serviceVideo = document.getElementById("service-video");
+    if (serviceVideo) loadVideo(serviceVideo);
+
+    if (!("IntersectionObserver" in window)) return;
+    var io = new IntersectionObserver(function (entries) {
+      entries.forEach(function (entry) {
+        var video = entry.target.tagName === "VIDEO" ? entry.target : entry.target.querySelector("video");
+        if (!video) return;
+        if (entry.isIntersecting) loadVideo(video);
+        else if (!video.paused) video.pause();
+      });
+    }, { threshold: 0.35 });
+
+    function observe(root) {
+      if (!root) return;
+      root.querySelectorAll("video").forEach(function (v) { io.observe(v); });
+    }
+    document.querySelectorAll(".slide video").forEach(function (v) { io.observe(v); });
+    var mobileWrap = document.getElementById("mobile-services-container");
+    if (mobileWrap) {
+      observe(mobileWrap);
+      new MutationObserver(function () { observe(mobileWrap); }).observe(mobileWrap, { childList: true, subtree: true });
+    }
+  }
+
+  if (document.readyState === "loading") {
+    document.addEventListener("DOMContentLoaded", init);
+  } else {
+    init();
+  }
+})();
+</script>
+
+</body>
+</html>

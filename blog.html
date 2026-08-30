@@ -1,0 +1,1147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <link rel="icon" href="images/favicon-Browfairy Logo.png?v=4" type="image/png">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Browfairy Blog | Permanent Makeup Tips & Insights Hyderabad</title>
+  <meta name="description" content="Read the latest tips, aftercare advice and insights on microblading, nano brows, lip blush and skincare from Browfairy Permanent Makeup Studio Hyderabad.">
+  <meta name="robots" content="index, follow">
+  <link rel="canonical" href="https://browfairypmu.com/blog.html">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Browfairy Blog | Permanent Makeup Tips Hyderabad">
+  <meta property="og:description" content="PMU insights from Ridhima at Browfairy in Kondapur, Hyderabad.">
+  <meta property="og:url" content="https://browfairypmu.com/blog.html">
+  <link rel="icon" href="images/favicon-Browfairy Logo.png?v=4" type="image/png">
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Blog",
+    "name": "Browfairy Permanent Makeup Blog",
+    "url": "https://browfairypmu.com/blog.html",
+    "description": "Guides on permanent makeup, brows, lips and studio choice from Browfairy in Hyderabad.",
+    "publisher": {
+      "@type": "BeautySalon",
+      "name": "Browfairy Permanent Makeup Studio",
+      "url": "https://browfairypmu.com/"
+    }
+  }
+  </script>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="style.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
+
+  <style>
+    /* ===== PAGE LOADER — only overlay, no body visibility hacks ===== */
+    #page-loader {
+      position: fixed;
+      inset: 0;
+      z-index: 99999;
+      background: #000;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      transition: opacity 0.5s ease;
+    }
+    #page-loader.fade-out {
+      opacity: 0;
+      pointer-events: none;
+    }
+    .loader-spinner {
+      width: 38px;
+      height: 38px;
+      border: 3px solid rgba(255,255,255,0.08);
+      border-top-color: #DAA520;
+      border-radius: 50%;
+      animation: lspin 0.7s linear infinite;
+    }
+    @keyframes lspin { to { transform: rotate(360deg); } }
+
+    #bg-video-desktop, #bg-video-mobile { position: fixed; top: 0; left: 0; width: 100%; height: 100vh; object-fit: cover; z-index: -1; }
+    @media (min-width: 1025px) { #bg-video-desktop { display: block; } #bg-video-mobile { display: none; } }
+    @media (max-width: 1024px) { #bg-video-desktop { display: none; } #bg-video-mobile { display: block; } }
+
+    .overlay { position: fixed; inset: 0; background: rgba(0,0,0,.55); z-index: -1; }
+
+    /* ===== HEADER — use specific transitions, NOT "all" ===== */
+    .main-header {
+      position: sticky;
+      top: 0;
+      left: 0;
+      width: 100%;
+      background-color: #000;
+      z-index: 1000;
+      padding: 20px;
+      transition: padding 0.3s ease, background-color 0.3s ease, box-shadow 0.3s ease;
+    }
+    .main-header.header-shrink {
+      padding: 10px 20px;
+      background-color: rgba(0, 0, 0, 0.95);
+      box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+    }
+    .main-header.header-shrink .studio-logo {
+      max-height: 50px;
+      transition: max-height 0.3s ease-in-out;
+    }
+    .main-header.header-shrink .navbar-nav .nav-link {
+      font-size: 1rem;
+      padding-top: 5px;
+      padding-bottom: 5px;
+      transition: font-size 0.3s ease-in-out, padding 0.3s ease-in-out;
+    }
+
+    .navbar {
+      background-color: transparent;
+      position: static;
+      z-index: 1000;
+      margin-bottom: 0;
+    }
+    .navbar .nav-link {
+      color: white;
+      font-weight: 500;
+      transition: color 0.2s ease;
+    }
+    .navbar .nav-link:hover,
+    .navbar .nav-link:focus {
+      color: #FFD700;
+    }
+    .navbar-toggler {
+      border-color: rgba(255,255,255,0.2);
+    }
+
+    /* ===== DROPDOWN — hover on desktop, click on mobile ===== */
+    .has-dropdown { position: relative; }
+    .has-dropdown .dropdown {
+      display: none;
+      position: absolute;
+      top: 100%;
+      left: 0;
+      background: white;
+      padding: 10px 0;
+      list-style: none;
+      min-width: 200px;
+      z-index: 999;
+      border-radius: 4px;
+      box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+    }
+    .dropdown li a {
+      color: black;
+      padding: 10px 20px;
+      display: block;
+      text-decoration: none;
+      transition: color 0.2s ease, background-color 0.2s ease;
+    }
+    .dropdown li a:hover {
+      color: #FFD700;
+      background-color: #f9f9f9;
+    }
+    .has-dropdown > a {
+      display: flex;
+      align-items: center;
+      height: 100%;
+    }
+
+    /* Desktop: show on hover */
+    @media (min-width: 992px) {
+      .has-dropdown:hover .dropdown {
+        display: block;
+      }
+    }
+
+    /* Mobile navbar collapse */
+    @media (max-width: 991.98px) {
+      .navbar-collapse {
+        background-color: black;
+        padding: 1rem;
+        margin-top: 20px;
+        z-index: 9999;
+        position: absolute;
+        top: 100%;
+        right: 0;
+        width: 70vw;
+        max-width: 400px;
+        border-radius: 0;
+      }
+      .navbar-nav .nav-link {
+        color: white !important;
+        background-color: black;
+        padding: 10px;
+        margin-bottom: 5px;
+        border-radius: 5px;
+      }
+      .navbar-nav .nav-link:hover {
+        background-color: #222;
+        color: #FFD700 !important;
+      }
+      .has-dropdown .dropdown {
+        background-color: black;
+        box-shadow: none;
+        position: static;
+        min-width: 100%;
+        padding-left: 15px;
+      }
+      .has-dropdown .dropdown li a {
+        color: white !important;
+        background-color: transparent;
+        padding: 8px 15px;
+      }
+      .has-dropdown .dropdown li a:hover {
+        color: #FFD700 !important;
+        background-color: #222 !important;
+      }
+    }
+
+    .logo-container {
+      position: absolute;
+      top: 3px;
+      left: 20px;
+      z-index: 1001;
+    }
+    .logo-container a {
+      display: inline-block;
+      position: relative;
+    }
+    .logo-container a::before {
+      content: "";
+      position: absolute;
+      top: -10px;
+      bottom: -10px;
+      left: -10px;
+      right: -10px;
+    }
+    .studio-logo {
+      max-height: 90px;
+      filter: brightness(1.2);
+      width: auto;
+      transition: max-height 0.3s ease-in-out;
+    }
+
+    /* Toggler button */
+    .navbar-toggler {
+      position: absolute !important;
+      bottom: 5px;
+      right: -8px;
+      z-index: 1002;
+      background-color: white;
+      border: none;
+      width: 45px;
+      height: 30px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      border-radius: 8px;
+      padding: 0;
+    }
+    .navbar-toggler-icon {
+      background-image: none;
+      width: 25px;
+      height: 3px;
+      background-color: gold;
+      position: relative;
+      display: inline-block;
+      border-radius: 2px;
+    }
+    .navbar-toggler-icon::before,
+    .navbar-toggler-icon::after {
+      content: "";
+      position: absolute;
+      width: 25px;
+      height: 3px;
+      background-color: gold;
+      left: 0;
+      border-radius: 2px;
+    }
+    .navbar-toggler-icon::before { top: -8px; }
+    .navbar-toggler-icon::after { top: 8px; }
+
+    /* Slide-up animation — no re-trigger flash */
+    .slide-up {
+      transform: translateY(50px);
+      opacity: 0;
+      transition: transform 0.8s ease-out, opacity 0.8s ease-out;
+    }
+    .slide-up.is-visible {
+      transform: translateY(0);
+      opacity: 1;
+    }
+
+    /* Hero heading */
+    .hero-heading-wrapper {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      text-align: center;
+      margin-bottom: 70px;
+    }
+    .heading-text {
+      position: relative;
+      z-index: 3;
+      font-family: 'Playfair Display', serif;
+      font-size: 5rem;
+      color: #DAA520;
+      margin-top: 80px;
+      padding: 0 20px;
+    }
+
+    @media (max-width: 767.98px) {
+      .heading-text {
+        font-size: 2.9rem !important;
+        margin-left: 0 !important;
+        margin-top: 40px !important;
+        padding: 10px 15px;
+      }
+      .studio-logo { max-height: 70px; }
+      .logo-container { top: 5px; left: 15px; }
+    }
+
+    /* ===== BLOGS ===== */
+    .blogs-wrapper {
+      position: relative;
+      top: -40px;
+      max-width: 900px;
+      margin: 0 auto;
+      padding: 0 20px 60px;
+    }
+    .blog-intro-card {
+      background: rgba(255,255,255,0.95);
+      border-radius: 10px;
+      padding: 35px;
+      margin-bottom: 25px;
+      box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+      transition: transform 0.3s ease, box-shadow 0.3s ease;
+    }
+    .blog-intro-card:hover {
+      transform: translateY(-3px);
+      box-shadow: 0 8px 25px rgba(0,0,0,0.15);
+    }
+    .blog-intro-card h2 {
+      color: #DAA520;
+      font-family: 'Playfair Display', serif;
+      font-size: 28px;
+      font-weight: 700;
+      margin: 0 0 8px 0;
+      padding: 0 0 16px 0;
+      border-bottom: 3px solid #DAA520;
+      line-height: 1.4;
+    }
+    .blog-intro-card p {
+      color: #333;
+      line-height: 1.8;
+      font-size: 16px;
+      margin-bottom: 12px;
+    }
+    .read-more-btn {
+      display: inline-block;
+      margin-top: 14px;
+      padding: 10px 22px;
+      background-color: gold;
+      color: black;
+      text-decoration: none;
+      border-radius: 5px;
+      font-weight: bold;
+      cursor: pointer;
+      border: none;
+      font-size: 15px;
+      transition: background-color 0.2s ease, transform 0.2s ease;
+    }
+    .read-more-btn:hover {
+      background-color: #e6c200;
+      color: black;
+      transform: translateY(-1px);
+    }
+
+    @media (max-width: 768px) {
+      .blogs-wrapper { top: -40px; padding: 0 15px 40px; }
+      .blog-intro-card { padding: 22px 18px; }
+      .blog-intro-card h2 { font-size: 22px; }
+      .blog-intro-card p { font-size: 15px; }
+      html, body { overflow-x: hidden; }
+    }
+
+    /* ===== CHATBOT ===== */
+    body { font-family: Arial, sans-serif; margin: 0; padding: 0; }
+    .chat-icon-button {
+      background-color: transparent;
+      color: white;
+      width: 70px;
+      height: 70px;
+      font-size: 30px;
+      border: none;
+      border-radius: 50%;
+      cursor: pointer;
+      box-shadow: 0 2px 6px rgba(0, 0, 0, 0.3);
+      position: fixed;
+      top: 150px;
+      right: 50px;
+      z-index: 999;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      transition: transform 0.2s ease, background-color 0.2s ease;
+      overflow: visible;
+    }
+    .chat-icon-button:hover { transform: scale(1.1); }
+    .chat-icon-button.new-message { animation: pulse 2s infinite; }
+    @keyframes pulse {
+      0% { box-shadow: 0 0 0 0 rgba(255, 215, 0, 0.7); }
+      70% { box-shadow: 0 0 0 10px rgba(255, 215, 0, 0); }
+      100% { box-shadow: 0 0 0 0 rgba(255, 215, 0, 0); }
+    }
+    .icon-container {
+      position: relative;
+      width: 100%;
+      height: 100%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+    .avatar-icon {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      border-radius: 50%;
+      transition: opacity 0.3s ease;
+    }
+    .close-icon {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      font-size: 30px;
+      color: white;
+      opacity: 0;
+      transition: opacity 0.3s ease;
+      pointer-events: none;
+    }
+    .chat-icon-button.open .avatar-icon { opacity: 0; }
+    .chat-icon-button.open .close-icon { opacity: 1; pointer-events: auto; }
+    .chat-icon-button.open { background-color: black; }
+    .notification-badge {
+      position: absolute;
+      top: -5px;
+      right: -5px;
+      background-color: red;
+      color: white;
+      width: 20px;
+      height: 20px;
+      border-radius: 50%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 12px;
+      font-weight: bold;
+      opacity: 0;
+      transition: opacity 0.3s ease;
+    }
+    .chat-icon-button.new-message .notification-badge { opacity: 1; }
+
+    #chatbot-popup {
+      display: none;
+      position: fixed;
+      bottom: 100px;
+      right: 20px;
+      width: 300px;
+      height: 400px;
+      background: white;
+      border-radius: 16px;
+      box-shadow: 0 0 20px rgba(0, 0, 0, 0.3);
+      z-index: 9999;
+      flex-direction: column;
+      overflow: hidden;
+    }
+    #chatbot-popup.active { display: flex; }
+    #chatbot-popup header {
+      background: black;
+      color: white;
+      padding: 5px 10px;
+      font-size: 13px;
+      height: 30px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      border-top-left-radius: 15px;
+      border-top-right-radius: 15px;
+    }
+    .header-content { display: flex; align-items: center; flex: 1; }
+    .header-title { font-weight: bold; margin-right: 8px; white-space: nowrap; }
+    .header-tip { font-size: 10px; opacity: 0.9; white-space: nowrap; }
+    #chatbot-popup header .close-btn { font-size: 14px; cursor: pointer; margin-left: 5px; }
+    #chat-content { flex: 1; padding: 10px; overflow-y: auto; font-size: 14px; }
+    #chat-input {
+      width: 100%;
+      padding: 8px;
+      border-radius: 8px;
+      border: 1px solid #ccc;
+      margin-top: 5px;
+      pointer-events: none;
+    }
+    #chatbot-popup.active #chat-input { pointer-events: auto; }
+    .chat-footer {
+      padding: 10px;
+      border-top: 1px solid #ddd;
+      background-color: #f9f9f9;
+      display: flex;
+      flex-direction: column;
+    }
+    .chat-footer-controls {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      margin-top: 5px;
+    }
+    .clear-btn {
+      background-color: #ccc;
+      border: none;
+      padding: 5px 10px;
+      border-radius: 5px;
+      cursor: pointer;
+      font-size: 12px;
+    }
+    .clear-btn:hover { background-color: #bbb; }
+    .powered-by {
+      font-size: 10px;
+      font-style: italic;
+      text-decoration: none;
+      display: flex;
+      align-items: center;
+    }
+    .powered-by-text { color: black; margin-right: 4px; }
+    .powered-by-url { color: blue; }
+    .powered-by:hover .powered-by-url { text-decoration: underline; }
+    .chat-message { display: flex; margin-bottom: 10px; }
+    .user-message { justify-content: flex-start; }
+    .bot-message { justify-content: flex-end; }
+    .message-bubble { padding: 8px 12px; border-radius: 12px; max-width: 70%; word-wrap: break-word; }
+    .user-bubble { background-color: #f1f1f1; color: #000; }
+    .bot-bubble { background-color: rgba(255, 215, 0, 0.15); color: #333; }
+    .typing { font-style: italic; opacity: 0.6; }
+    .quick-replies { display: flex; flex-wrap: wrap; gap: 5px; margin-top: 10px; }
+    .quick-reply-btn {
+      background: #eee;
+      padding: 5px 10px;
+      border-radius: 8px;
+      cursor: pointer;
+      font-size: 12px;
+      border: none;
+    }
+    .quick-reply-btn:hover { background: #ddd; }
+    .contact-link { text-decoration: underline; color: #0066cc; font-weight: bold; }
+
+    @media (max-width: 767px) {
+      .chat-icon-button { width: 50px; height: 50px; font-size: 20px; top: 100px; right: 18px; }
+      #chatbot-popup { width: 250px; height: 350px; bottom: 80px; right: 10px; }
+      #chatbot-popup header { padding: 4px 8px; height: 32px; }
+      .header-content { flex: 1; display: flex; flex-direction: row; align-items: center; overflow: hidden; }
+      .header-title { font-size: 13px; white-space: nowrap; margin-right: 6px; }
+      .header-tip { font-size: 9px; white-space: nowrap; }
+      .close-btn { font-size: 16px !important; cursor: pointer; width: 24px; height: 24px; display: flex; align-items: center; justify-content: center; border-radius: 50%; background-color: rgba(255,255,255,0.2); flex-shrink: 0; }
+      .clear-btn { font-size: 10px; padding: 4px 8px; }
+      .powered-by { font-size: 8px; }
+      .notification-badge { width: 16px; height: 16px; font-size: 10px; }
+    }
+  </style>
+</head>
+<body>
+
+  <!-- ===== PAGE LOADER ===== -->
+  <div id="page-loader">
+    <div class="loader-spinner"></div>
+  </div>
+
+  <!-- CHATBOT -->
+  <button class="chat-icon-button" id="chat-toggle-btn">
+    <div class="icon-container">
+      <img id="chat-icon" src="images/icon.jpg" alt="Chat with Browfairy" class="avatar-icon">
+      <div class="close-icon">&times;</div>
+    </div>
+    <div class="notification-badge">1</div>
+  </button>
+
+  <div id="chatbot-popup">
+    <header>
+      <div class="header-content">
+        <span class="header-title">Browfairy</span>
+        <span class="header-tip">For accurate info, verify with us.</span>
+      </div>
+      <span class="close-btn" id="chat-close-btn">&times;</span>
+    </header>
+    <div id="chat-content"></div>
+    <div class="chat-footer">
+      <input type="text" id="chat-input" placeholder="Type your message...">
+      <div class="chat-footer-controls">
+        <button class="clear-btn" id="chat-clear-btn">Clear Chat</button>
+        <a href="https://www.hyperionai.io/" target="_blank" rel="noopener noreferrer" class="powered-by">
+          <span class="powered-by-text">Powered by</span>
+          <span class="powered-by-url">www.hyperionai.io</span>
+        </a>
+      </div>
+    </div>
+  </div>
+
+  <!-- Videos -->
+  <video preload="none" id="bg-video-desktop" muted loop playsinline>
+    <source data-src="videos/nano combination brows.mp4" type="video/mp4" />
+  </video>
+  <video preload="none" id="bg-video-mobile" muted loop playsinline>
+    <source data-src="videos/jakeer.mp4" type="video/mp4" />
+  </video>
+
+  <div class="overlay"></div>
+
+  <!-- Header + Nav -->
+  <header class="main-header" id="main-header">
+    <div class="logo-container" id="logo-container">
+      <img src="images/Browfairy Logo.png" alt="Browfairy Permanent Makeup Studio logo" class="studio-logo img-fluid">
+    </div>
+
+    <nav class="navbar navbar-expand-lg navbar-dark">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="index.html"></a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse justify-content-end" id="navbarNavDropdown">
+          <ul class="navbar-nav">
+            <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+            <li class="nav-item"><a class="nav-link" href="about.html">About</a></li>
+            <li class="has-dropdown nav-item">
+              <a class="nav-link" href="#">Services <i class="fa-solid fa-chevron-down chev"></i></a>
+              <ul class="dropdown">
+                <li><a class="dropdown-item" href="microblading.html">Microblading</a></li>
+                <li><a class="dropdown-item" href="combination-brows.html">Combination Brows</a></li>
+                <li><a class="dropdown-item" href="ombre-brows.html">Ombré Powder Brows</a></li>
+                <li><a class="dropdown-item" href="lip-neutralization.html">Lip Neutralization</a></li>
+                <li><a class="dropdown-item" href="lip-blush.html">Lip Blush</a></li>
+                <li><a class="dropdown-item" href="lash-liner.html">Lash Liner</a></li>
+                <li><a class="dropdown-item" href="nano-brows.html">Nano Brows</a></li>
+                <li><a class="dropdown-item" href="nano-combination-brows.html">Nano Combination Brows</a></li>
+                <li><a class="dropdown-item" href="lash-lift.html">Lash Lift and Tint</a></li>
+                <li><a class="dropdown-item" href="brow-lamination.html">Brow Lamination and Tint</a></li>
+                <li><a class="dropdown-item" href="chemical-peels.html">Chemical Peels</a></li>
+                <li><a class="dropdown-item" href="hydrafacial.html">Hydrafacials</a></li>
+              </ul>
+            </li>
+            <li class="nav-item"><a class="nav-link" href="training.html">Training</a></li>
+            <li class="nav-item"><a class="nav-link" href="blog.html">Blogs</a></li>
+            <li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
+            <li class="nav-item"><a class="nav-link" href="Faqs2.html">FAQS</a></li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+  </header>
+
+  <!-- Page Heading -->
+  <div class="col-12 col-md-12 d-flex flex-column align-items-center text-center hero-heading-wrapper">
+    <h1 class="fw-bold heading-text slide-up">Blogs</h1>
+  </div>
+
+  <!-- Blog List -->
+  <div class="blogs-wrapper" id="blogs-list"></div>
+  <noscript>
+    <div class="blogs-wrapper">
+      <p><a href="blog-detail.html?article=article1">How to Choose the Best Permanent Makeup Studio in Hyderabad</a></p>
+      <p><a href="blog-detail.html?article=article2">The Science Behind Pigment Selection for Indian Skin Tones</a></p>
+      <p><a href="blog-detail.html?article=article3">Why Some Permanent Makeup Looks Fake — And How to Avoid It</a></p>
+      <p><a href="blog-detail.html?article=article4">The Art of Natural-Looking Brows: Why Less Is Often More</a></p>
+      <p><a href="blog-detail.html?article=article5">Why Choosing a Permanent Makeup Studio Based on Price Alone Can Cost More in the Long Run</a></p>
+      <p><a href="blog-detail.html?article=article6">Dark Lip Neutralization Explained: Everything You Need to Know</a></p>
+    </div>
+  </noscript>
+
+  <!-- Bootstrap JS -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+
+  <!-- ===== ALL JS IN ONE SINGLE DOMContentLoaded ===== -->
+  <script>
+  document.addEventListener("DOMContentLoaded", function () {
+
+    /* ---------- 1. Logo link wrapper ---------- */
+    var logoContainer = document.getElementById("logo-container");
+    if (logoContainer && !logoContainer.querySelector("a")) {
+      var link = document.createElement("a");
+      link.href = "index.html";
+      while (logoContainer.firstChild) {
+        link.appendChild(logoContainer.firstChild);
+      }
+      logoContainer.appendChild(link);
+    }
+
+    /* ---------- 2. Dropdown: click only on mobile ---------- */
+    var isMobile = window.innerWidth < 992;
+    var dropdownTrigger = document.querySelector(".has-dropdown > a");
+    var dropdownMenu = document.querySelector(".has-dropdown .dropdown");
+
+    if (isMobile && dropdownTrigger && dropdownMenu) {
+      dropdownTrigger.addEventListener("click", function (e) {
+        e.preventDefault();
+        e.stopPropagation();
+        dropdownMenu.classList.toggle("show");
+      });
+      dropdownMenu.addEventListener("click", function (e) {
+        e.stopPropagation();
+      });
+      document.addEventListener("click", function () {
+        dropdownMenu.classList.remove("show");
+      });
+    }
+    /* On desktop, CSS :hover handles it — no JS needed, no conflict */
+
+    /* ---------- 3. Slide-up animation (runs once, no re-trigger) ---------- */
+    var animatedElements = document.querySelectorAll(".slide-up");
+    var delay = 0;
+    animatedElements.forEach(function (el) {
+      setTimeout(function () {
+        el.classList.add("is-visible");
+      }, delay);
+      delay += 300;
+    });
+
+    /* ---------- 4. Header shrink on scroll ---------- */
+    var mainHeader = document.getElementById("main-header");
+    var scrollTicking = false;
+    window.addEventListener("scroll", function () {
+      if (!scrollTicking) {
+        window.requestAnimationFrame(function () {
+          if (window.scrollY > 50) {
+            mainHeader.classList.add("header-shrink");
+          } else {
+            mainHeader.classList.remove("header-shrink");
+          }
+          scrollTicking = false;
+        });
+        scrollTicking = true;
+      }
+    });
+
+    /* ---------- 5. Set header height CSS variable ---------- */
+    function setHeaderHeight() {
+      document.body.style.setProperty("--header-height", mainHeader.offsetHeight + "px");
+    }
+    setHeaderHeight();
+    window.addEventListener("resize", setHeaderHeight);
+
+    /* ---------- 6. Chatbot ---------- */
+    var chatState = { isOpen: false, hasNewMessage: false, unreadCount: 0 };
+    var chatPopup = document.getElementById("chatbot-popup");
+    var chatButton = document.getElementById("chat-toggle-btn");
+    var chatCloseBtn = document.getElementById("chat-close-btn");
+    var chatClearBtn = document.getElementById("chat-clear-btn");
+    var chatContent = document.getElementById("chat-content");
+    var chatInput = document.getElementById("chat-input");
+
+    var responses = {
+      "hi": "Hi, I am your Browfairy.",
+      "hello": "Hello! Feel free to ask me any questions about our services. For accurate info, it is always best to call or WhatsApp us.",
+      "timings": "We are open from 11 AM to 8 PM every day.",
+      "what are your timings": "We are open from 11 AM to 8 PM every day.",
+      "location": "It is located in Kondapur, Hyderabad.",
+      "are weekends open": "Yes, we are open all days. But you need to book a prior appointment.",
+      "how can i book my appointment": "You can call/WhatsApp us on +91 9908063645 for booking the appointment.",
+      "how many sessions for eyebrows": "Two sessions are typically needed for eyebrows. The first session creates the shape and color, while the second perfects the result.",
+      "how many sessions for lips": "2-3 sessions are required for lips procedures depending on the skin type.",
+      "how long does the process take": "A procedure typically takes between 2-3 hours.",
+      "can we have a phone consultation": "Yes, absolutely. Please call/WhatsApp us on +91 9908063645.",
+      "is it permanent": "It is a semi-permanent makeup that lasts for at least 2-3 years. After that, a touch-up session will maintain the results.",
+      "how many sessions for long lasting results": "Two sessions are required for long-lasting results.",
+      "does it hurt": "There will be slight discomfort but it will not be painful. A numbing cream is applied during the process to keep you comfortable.",
+      "is it painful": "There will be slight discomfort but it will not be painful. A numbing cream is applied during the process to keep you comfortable.",
+      "what is pmu": "PMU stands for Permanent Makeup, a cosmetic tattoo technique that enhances features like eyebrows, lips, and eyes using pigments implanted into the skin. It saves time, boosts confidence, and gives a long-lasting polished look.",
+      "what is microblading": "Microblading is a semi-permanent eyebrow technique that uses fine needles to create hair-like strokes, enhancing shape and fullness. Results last 1-2 years with proper care.",
+      "is it safe": "Yes, PMU is safe when performed by a trained professional in a sterile environment. However, it may not be suitable for everyone like pregnant women, breastfeeding mothers, or those on blood thinner medications.",
+      "how long does a lip procedure last": "It typically takes 2-3 hours for the procedure and the results last for at least 2-3 years.",
+      "default": "Please call/WhatsApp us on +91 9908063645 or DM on Instagram to get accurate responses."
+    };
+
+    function appendMessage(sender, text) {
+      var messageDiv = document.createElement("div");
+      messageDiv.className = "chat-message " + (sender === "User" ? "user-message" : "bot-message");
+      messageDiv.innerHTML = '<div class="message-bubble ' + (sender === "User" ? "user-bubble" : "bot-bubble") + '">' + text + '</div>';
+      chatContent.appendChild(messageDiv);
+      chatContent.scrollTop = chatContent.scrollHeight;
+    }
+
+    function showQuickReplies(options) {
+      var repliesDiv = document.createElement("div");
+      repliesDiv.className = "quick-replies";
+      options.forEach(function (option) {
+        var btn = document.createElement("button");
+        btn.className = "quick-reply-btn";
+        btn.textContent = option;
+        btn.onclick = function () { handleUserInput(option); };
+        repliesDiv.appendChild(btn);
+      });
+      chatContent.appendChild(repliesDiv);
+      chatContent.scrollTop = chatContent.scrollHeight;
+    }
+
+    function handleUserInput(input) {
+      appendMessage("User", input);
+      var lowerInput = input.toLowerCase().trim();
+      var reply = responses[lowerInput] || responses["default"];
+      var typingDiv = document.createElement("div");
+      typingDiv.className = "chat-message bot-message";
+      typingDiv.innerHTML = '<div class="message-bubble bot-bubble typing">Typing...</div>';
+      chatContent.appendChild(typingDiv);
+      chatContent.scrollTop = chatContent.scrollHeight;
+      setTimeout(function () {
+        typingDiv.remove();
+        appendMessage("Bot", reply);
+      }, 800);
+    }
+
+    function openChat() {
+      chatPopup.classList.add("active");
+      chatButton.classList.add("open");
+      chatState.isOpen = true;
+      chatState.hasNewMessage = false;
+      chatState.unreadCount = 0;
+      chatButton.classList.remove("new-message");
+      if (chatContent.innerHTML.indexOf("Welcome to Browfairy!") === -1) {
+        appendMessage("Bot", "Welcome to Browfairy! I can assist you with FAQs and service-related questions.");
+        showQuickReplies(["What is microblading", "Is it safe", "Does it hurt"]);
+      }
+    }
+
+    function closeChat() {
+      chatPopup.classList.remove("active");
+      chatButton.classList.remove("open");
+      chatState.isOpen = false;
+    }
+
+    chatButton.addEventListener("click", function () {
+      if (chatState.isOpen) { closeChat(); } else { openChat(); }
+    });
+    chatCloseBtn.addEventListener("click", closeChat);
+    chatClearBtn.addEventListener("click", function () {
+      chatContent.innerHTML = "";
+      appendMessage("Bot", "Chat cleared. How can I help you?");
+      showQuickReplies(["What is microblading", "Timings", "Book appointment"]);
+    });
+    chatInput.addEventListener("keypress", function (e) {
+      if (e.key === "Enter") {
+        var input = e.target.value.trim();
+        if (!input) return;
+        e.target.value = "";
+        handleUserInput(input);
+      }
+    });
+
+    setTimeout(function () {
+      if (!chatState.isOpen) {
+        chatState.hasNewMessage = true;
+        chatState.unreadCount = 1;
+        chatButton.classList.add("new-message");
+      }
+    }, 3000);
+
+    /* ---------- 7. Google Sheets Blog System ---------- */
+    var SHEET_CSV_URL = "https://docs.google.com/spreadsheets/d/e/2PACX-1vQdbCcnj71jq-bFd969cZTzBHIJEa1YR0IShsyEbg5Vw9Wc_bJAlf339FrAxX5WvVAj93Co_xTT4iJq/pub?output=csv";
+    var CACHE_KEY = "browfairy_blogs_csv_cache";
+    var CACHE_TTL = 2 * 60 * 1000;
+    var blogsList = document.getElementById("blogs-list");
+    /* These posts keep the page useful if the Google Sheet is unavailable. */
+    var FALLBACK_BLOGS = [
+      { id: "article1", title: "How to Choose the Best Permanent Makeup Studio", excerpt: "Permanent makeup is an investment in your appearance that can last for years. Choosing the right studio is an important decision.", body: "Permanent makeup is an investment in your appearance that can last for years.\n\n## Look Beyond Before-and-After Photos\nBeautiful photos matter, but ask about natural, healed results across different clients.\n\n## Prioritize Natural-Looking Results\nA skilled artist understands facial symmetry, colour theory, and the result you want to live with every day.\n\n## Final Thoughts\nChoose a studio that combines technical expertise, aesthetic judgement, and personalised care." },
+      { id: "article2", title: "Microblading vs Nano Brows: Which One Is Right for You?", excerpt: "Microblading and nano brows both create natural-looking brows, but they use different methods and suit different skin types.", body: "Microblading and nano brows can both create beautiful, natural-looking results, but they use different techniques.\n\n## What Is Microblading?\nMicroblading uses a manual tool with fine needles to create hair-like strokes.\n\n## What Are Nano Brows?\nNano brows use a digital machine with ultra-fine needle cartridges and can be a better option for oily skin.\n\n## Final Thoughts\nThe best choice depends on your skin type, desired look, and an experienced artist's advice." },
+      { id: "article3", title: "Lip Blush: Everything You Need to Know Before Your Appointment", excerpt: "Lip blush enhances natural lip colour, defines shape, and can correct asymmetry while keeping the result soft and natural.", body: "Lip blush is a semi-permanent treatment that enhances natural lip colour and definition.\n\n## What Is Lip Blush?\nPigment is deposited with a digital machine to create a soft, natural-looking tint.\n\n## What to Expect During the Procedure\nYour appointment generally includes a consultation, numbing, pigment application, and a final colour check.\n\n## Final Thoughts\nWith the right artist and aftercare, lip blush can be a beautiful confidence boost." }
+    ];
+
+    function escapeHtml(value) {
+      if (!value) return "";
+      return String(value).replace(/&/g, "&amp;").replace(/</g, "&lt;").replace(/>/g, "&gt;").replace(/"/g, "&quot;").replace(/'/g, "&#39;");
+    }
+
+    function parseCSV(text) {
+      var rows = [], currentRow = [], currentField = "", inQuotes = false, i = 0;
+      while (i < text.length) {
+        var ch = text[i];
+        if (inQuotes) {
+          if (ch === '"') {
+            if (i + 1 < text.length && text[i + 1] === '"') { currentField += '"'; i += 2; continue; }
+            else { inQuotes = false; i++; continue; }
+          } else { currentField += ch; i++; continue; }
+        }
+        if (ch === '"') { inQuotes = true; i++; }
+        else if (ch === ',') { currentRow.push(currentField.trim()); currentField = ""; i++; }
+        else if (ch === '\r') { i++; }
+        else if (ch === '\n') {
+          currentRow.push(currentField.trim());
+          if (currentRow.length > 0 && currentRow.some(function (f) { return f !== ""; })) { rows.push(currentRow); }
+          currentRow = []; currentField = ""; i++;
+        } else { currentField += ch; i++; }
+      }
+      currentRow.push(currentField.trim());
+      if (currentRow.length > 0 && currentRow.some(function (f) { return f !== ""; })) { rows.push(currentRow); }
+      return rows;
+    }
+
+    function fetchFromSheet() {
+      return fetch(SHEET_CSV_URL)
+        .then(function (response) {
+          if (!response.ok) throw new Error("HTTP " + response.status);
+          return response.text();
+        })
+        .then(function (csvText) {
+          var rows = parseCSV(csvText);
+          if (rows.length < 2) return { blogs: FALLBACK_BLOGS };
+          var headers = rows[0];
+          var blogs = [];
+          for (var i = 1; i < rows.length; i++) {
+            var row = {};
+            for (var j = 0; j < headers.length; j++) {
+              row[headers[j].toLowerCase().trim()] = rows[i][j] || "";
+            }
+            if (!row.title || row.title.trim() === "") continue;
+            blogs.push({ id: row.id || ("article" + i), title: row.title.trim(), excerpt: row.excerpt || "", body: row.body || row.content || "" });
+          }
+          if (!blogs.length) blogs = FALLBACK_BLOGS;
+          var data = { blogs: blogs };
+          try { localStorage.setItem(CACHE_KEY, JSON.stringify({ data: data, timestamp: Date.now() })); } catch (e) {}
+          return data;
+        });
+    }
+
+    function renderBlogs(blogs) {
+      if (!blogs || !blogs.length) blogs = FALLBACK_BLOGS;
+      blogsList.innerHTML = blogs.map(function (blog) {
+        var href = 'blog-detail.html?article=' + encodeURIComponent(blog.id);
+        return '<div class="blog-intro-card">' +
+          '<h2>' + escapeHtml(blog.title) + '</h2>' +
+          '<p>' + escapeHtml(blog.excerpt) + '</p>' +
+          '<a class="read-more-btn" href="' + href + '">Read More</a>' +
+          '</div>';
+      }).join("");
+
+      var listEl = document.getElementById('blog-itemlist-schema');
+      if (!listEl) {
+        listEl = document.createElement('script');
+        listEl.type = 'application/ld+json';
+        listEl.id = 'blog-itemlist-schema';
+        document.head.appendChild(listEl);
+      }
+      listEl.textContent = JSON.stringify({
+        "@context": "https://schema.org",
+        "@type": "ItemList",
+        "itemListElement": blogs.map(function (blog, index) {
+          return {
+            "@type": "ListItem",
+            "position": index + 1,
+            "url": "https://browfairypmu.com/blog-detail.html?article=" + encodeURIComponent(blog.id),
+            "name": blog.title
+          };
+        })
+      });
+    }
+
+    function revealPage() {
+      var loader = document.getElementById("page-loader");
+      if (loader) {
+        loader.classList.add("fade-out");
+        setTimeout(function () { loader.remove(); }, 500);
+      }
+    }
+
+    /* Safety fallback */
+    setTimeout(revealPage, 5000);
+
+    /* Try cache first */
+    var usedCache = false;
+    try {
+      var cached = JSON.parse(localStorage.getItem(CACHE_KEY));
+      if (cached && cached.data && cached.data.blogs && (Date.now() - cached.timestamp < CACHE_TTL)) {
+        renderBlogs(cached.data.blogs);
+        revealPage();
+        usedCache = true;
+        fetchFromSheet().catch(function () {}); /* refresh in background */
+      }
+    } catch (e) {}
+
+    if (!usedCache) {
+      fetchFromSheet()
+        .then(function (data) {
+          renderBlogs(data.blogs);
+          revealPage();
+        })
+        .catch(function () {
+          try {
+            var stale = JSON.parse(localStorage.getItem(CACHE_KEY));
+            if (stale && stale.data && stale.data.blogs && stale.data.blogs.length) {
+              renderBlogs(stale.data.blogs);
+              revealPage();
+              return;
+            }
+          } catch (e) {}
+          renderBlogs(FALLBACK_BLOGS);
+          revealPage();
+        });
+    }
+
+  }); /* end single DOMContentLoaded */
+  </script>
+
+  <!-- Free Consultation Section -->
+  <section class="gallery-contact-section" style="background-color: grey; color: white; padding: 40px 0; position: relative;">
+    <div class="container">
+      <div class="row align-items-start g-5">
+        <!-- Left Column: Images -->
+        <div class="col-md-6 col-12 d-flex gap-3 justify-content-center slide-on-scroll">
+          <div style="width: 48%; overflow: hidden; border-radius: 20px;">
+            <img src="images/service1.jpg" alt="Browfairy PMU studio in Kondapur, Hyderabad" class="img-fluid" style="object-fit: cover; height: 100%;">
+          </div>
+          <div style="width: 48%; overflow: hidden; border-radius: 20px;">
+            <img src="images/nano-brows.jpg" alt="Nano brows before and after at Browfairy Hyderabad" class="img-fluid" style="object-fit: cover; height: 100%;">
+          </div>
+        </div>
+
+        <!-- Right Column: Free Consultation Info -->
+        <div class="col-md-6 col-12 d-flex flex-column align-items-center gap-4 slide-on-scroll">
+          <div class="follow-text" style="font-size: 45px;">Free Consultation</div>
+
+          <!-- Phone -->
+          <div class="text-center">
+            <i class="fa-solid fa-phone" style="color: #FFD700; margin-right: 8px; font-size: 25px;"></i>
+            <strong style="font-size: 25px;">PHONE</strong><br>
+            <a href="tel:+919908063645" class="glow-text-button">+91 9908063645</a>
+            <div style="height: 2px; width: 180px; background-color: white; margin: 20px auto 0;"></div>
+          </div>
+          
+          <!-- Instagram -->
+          <div class="text-center">
+            <div style="font-size: 25px; color: white;">
+              <i class="fa-brands fa-instagram" style="margin-right: 8px;"></i>Instagram
+            </div>
+
+            <div style="font-size: 22px; font-weight: 600; margin-top: 10px;">
+              <a href="https://www.instagram.com/browfairy_pmustudio?igsh=ZGJjem1yc3QzdWQz" 
+                 target="_blank" 
+                 class="glow-text-button">
+                @browfairy_pmustudio
+              </a>
+            </div>
+
+            <div style="height: 2px; width: 250px; background-color: white; margin: 20px auto 0;"></div>
+          </div>
+
+          <!-- Email -->
+          <div class="text-center">
+            <i class="fa-solid fa-envelope" style="color: #FFD700; margin-right: 8px; font-size: 22px;"></i>
+            <strong style="font-size: 22px;">Email</strong><br>
+            <a href="mailto:ridhimas.browfairy@gmail.com" class="glow-text-button" style="font-size: 18px; margin-top: 10px; display: inline-block;">ridhimas.browfairy@gmail.com</a>
+            <div style="height: 2px; width: 300px; background-color: white; margin: 20px auto 0;"></div>
+          </div>
+
+          <!-- Location -->
+          <div class="text-center">
+            <i class="fa-solid fa-location-dot" style="color: #FFD700; margin-right: 8px; font-size: 25px;"></i>
+            <strong style="font-size: 25px;">LOCATION</strong><br>
+            <a href="https://maps.app.goo.gl/kJdRqsQdHxgS2x946?g_st=aw" target="_blank" rel="noopener noreferrer" class="glow-text-button" style="font-size: 18px; margin-top: 10px; display: inline-block;">
+              4th Floor, Times Padmini, Botanical Garden Road, Kondapur, Hyderabad 500084
+            </a>
+            <div style="height: 2px; width: 450px; background-color: white; margin: 20px auto 0;"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+    
+    <style>
+      .glow-text-button {
+        color: white;
+        text-decoration: none;
+        display: inline-block;
+        position: relative;
+        font-size: inherit;
+        font-weight: inherit;
+        cursor: pointer;
+        transition: all 0.3s ease;
+        animation: text-glow 2s ease-in-out infinite;
+      }
+      
+      /* Text glow animation */
+      @keyframes text-glow {
+        0% {
+          text-shadow: 0 0 5px rgba(255, 215, 0, 0.7),
+                        0 0 10px rgba(255, 215, 0, 0.5);
+        }
+        50% {
+          text-shadow: 0 0 10px rgba(255, 215, 0, 0.9),
+                        0 0 20px rgba(255, 215, 0, 0.7),
+                        0 0 30px rgba(255, 215, 0, 0.5);
+        }
+        100% {
+          text-shadow: 0 0 5px rgba(255, 215, 0, 0.7),
+                        0 0 10px rgba(255, 215, 0, 0.5);
+        }
+      }
+    </style>
+  </section>
+
+
+
+<script id="lazy-bg-video">
+(function () {
+  function loadVideo(video) {
+    if (!video || video.getAttribute("data-loaded") === "1") {
+      if (video && video.paused) {
+        var play = video.play();
+        if (play && play.catch) play.catch(function () {});
+      }
+      return;
+    }
+    var source = video.querySelector("source[data-src]");
+    if (source && !source.getAttribute("src")) {
+      source.setAttribute("src", source.getAttribute("data-src"));
+    }
+    video.setAttribute("data-loaded", "1");
+    if (typeof video.load === "function") video.load();
+    var playPromise = video.play();
+    if (playPromise && playPromise.catch) playPromise.catch(function () {});
+  }
+
+  function init() {
+    var isMobile = window.matchMedia("(max-width: 1024px)").matches;
+    var desktop = document.getElementById("bg-video-desktop");
+    var mobile = document.getElementById("bg-video-mobile");
+    var single = document.getElementById("bg-video");
+    if (desktop || mobile) {
+      loadVideo(isMobile ? mobile : desktop);
+    } else if (single) {
+      loadVideo(single);
+    }
+
+    var serviceVideo = document.getElementById("service-video");
+    if (serviceVideo) loadVideo(serviceVideo);
+
+    if (!("IntersectionObserver" in window)) return;
+    var io = new IntersectionObserver(function (entries) {
+      entries.forEach(function (entry) {
+        var video = entry.target.tagName === "VIDEO" ? entry.target : entry.target.querySelector("video");
+        if (!video) return;
+        if (entry.isIntersecting) loadVideo(video);
+        else if (!video.paused) video.pause();
+      });
+    }, { threshold: 0.35 });
+
+    function observe(root) {
+      if (!root) return;
+      root.querySelectorAll("video").forEach(function (v) { io.observe(v); });
+    }
+    document.querySelectorAll(".slide video").forEach(function (v) { io.observe(v); });
+    var mobileWrap = document.getElementById("mobile-services-container");
+    if (mobileWrap) {
+      observe(mobileWrap);
+      new MutationObserver(function () { observe(mobileWrap); }).observe(mobileWrap, { childList: true, subtree: true });
+    }
+  }
+
+  if (document.readyState === "loading") {
+    document.addEventListener("DOMContentLoaded", init);
+  } else {
+    init();
+  }
+})();
+</script>
+
+</body>
+</html>
