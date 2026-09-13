@@ -1,4 +1,13 @@
 User-agent: *
 Allow: /
 
+Disallow: /blog3.html
+Disallow: /chatbot.html
+Disallow: /scroll.html
+Disallow: /course4.html
+Disallow: /course5.html
+Disallow: /course6.html
+Disallow: /Faqs.html
+Disallow: /New folder/
+
 Sitemap: https://browfairypmu.com/sitemap.xml

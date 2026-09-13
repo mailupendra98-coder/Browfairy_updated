@@ -6,7 +6,7 @@
     <priority>1.0</priority>
   </url>
   <url>
-    <loc>https://browfairypmu.com/about.html</loc>
+    <loc>https://browfairypmu.com/about-ridhima.html</loc>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
@@ -86,32 +86,42 @@
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://browfairypmu.com/blog-detail.html?article=article1</loc>
+    <loc>https://browfairypmu.com/how-to-choose-permanent-makeup-studio-hyderabad.html</loc>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://browfairypmu.com/blog-detail.html?article=article2</loc>
+    <loc>https://browfairypmu.com/pigment-selection-indian-skin-tones.html</loc>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://browfairypmu.com/blog-detail.html?article=article3</loc>
+    <loc>https://browfairypmu.com/how-to-avoid-fake-looking-permanent-makeup.html</loc>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://browfairypmu.com/blog-detail.html?article=article4</loc>
+    <loc>https://browfairypmu.com/natural-looking-brows.html</loc>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://browfairypmu.com/blog-detail.html?article=article5</loc>
+    <loc>https://browfairypmu.com/choosing-permanent-makeup-studio-by-price.html</loc>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://browfairypmu.com/blog-detail.html?article=article6</loc>
+    <loc>https://browfairypmu.com/dark-lip-neutralization-explained.html</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://browfairypmu.com/microblading-vs-nano-brows.html</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://browfairypmu.com/what-is-a-hydrafacial.html</loc>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>

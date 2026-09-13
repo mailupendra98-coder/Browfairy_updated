@@ -1,4 +1,93 @@
 {
   "cleanUrls": false,
-  "trailingSlash": false
+  "trailingSlash": false,
+  "redirects": [
+    {
+      "source": "/about.html",
+      "destination": "/about-ridhima.html",
+      "permanent": true
+    },
+    {
+      "source": "/why-permanent-makeup-looks-fake.html",
+      "destination": "/how-to-avoid-fake-looking-permanent-makeup.html",
+      "permanent": true
+    },
+    {
+      "source": "/blog-detail.html",
+      "has": [
+        {
+          "type": "query",
+          "key": "article",
+          "value": "article1"
+        }
+      ],
+      "destination": "/how-to-choose-permanent-makeup-studio-hyderabad.html",
+      "permanent": true
+    },
+    {
+      "source": "/blog-detail.html",
+      "has": [
+        {
+          "type": "query",
+          "key": "article",
+          "value": "article2"
+        }
+      ],
+      "destination": "/pigment-selection-indian-skin-tones.html",
+      "permanent": true
+    },
+    {
+      "source": "/blog-detail.html",
+      "has": [
+        {
+          "type": "query",
+          "key": "article",
+          "value": "article3"
+        }
+      ],
+      "destination": "/how-to-avoid-fake-looking-permanent-makeup.html",
+      "permanent": true
+    },
+    {
+      "source": "/blog-detail.html",
+      "has": [
+        {
+          "type": "query",
+          "key": "article",
+          "value": "article4"
+        }
+      ],
+      "destination": "/natural-looking-brows.html",
+      "permanent": true
+    },
+    {
+      "source": "/blog-detail.html",
+      "has": [
+        {
+          "type": "query",
+          "key": "article",
+          "value": "article5"
+        }
+      ],
+      "destination": "/choosing-permanent-makeup-studio-by-price.html",
+      "permanent": true
+    },
+    {
+      "source": "/blog-detail.html",
+      "has": [
+        {
+          "type": "query",
+          "key": "article",
+          "value": "article6"
+        }
+      ],
+      "destination": "/dark-lip-neutralization-explained.html",
+      "permanent": true
+    },
+    {
+      "source": "/blog-detail.html",
+      "destination": "/blog.html",
+      "permanent": true
+    }
+  ]
 }

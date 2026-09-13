@@ -4,16 +4,116 @@
   <link rel="icon" href="images/favicon-Browfairy Logo.png?v=4" type="image/png">
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Blog – Browfairy</title>
-  <meta name="robots" content="noindex, nofollow">
-  <link rel="icon" href="images/favicon-Browfairy Logo.png?v=4" type="image/png">
-
+  <title>How to Avoid Fake-Looking Permanent Makeup | Ridhima's Browfairy PMU Studio</title>
+  <meta name="description" content="One of the biggest fears people have before booking a permanent makeup appointment is simple: &quot;I don&#x27;t want it to look obvious.&quot; Let&#x27;s explore the most…">
+  <meta name="robots" content="index, follow">
+  <link rel="canonical" href="https://browfairypmu.com/how-to-avoid-fake-looking-permanent-makeup.html">
+  <meta property="og:type" content="article">
+  <meta property="og:title" content="How to Avoid Fake-Looking Permanent Makeup | Ridhima's Browfairy PMU Studio">
+  <meta property="og:description" content="One of the biggest fears people have before booking a permanent makeup appointment is simple: &quot;I don&#x27;t want it to look obvious.&quot; Let&#x27;s explore the most…">
+  <meta property="og:url" content="https://browfairypmu.com/how-to-avoid-fake-looking-permanent-makeup.html">
+  <meta property="og:site_name" content="Ridhima's Browfairy PMU Studio">
+  <meta property="og:locale" content="en_IN">
+  <script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BlogPosting",
+  "headline": "How to Avoid Fake-Looking Permanent Makeup",
+  "description": "One of the biggest fears people have before booking a permanent makeup appointment is simple: \"I don't want it to look obvious.\" Let's explore the most…",
+  "mainEntityOfPage": "https://browfairypmu.com/how-to-avoid-fake-looking-permanent-makeup.html",
+  "author": {
+    "@type": "Person",
+    "name": "Ridhima Sony",
+    "url": "https://browfairypmu.com/about-ridhima.html"
+  },
+  "publisher": {
+  "@type": "BeautySalon",
+  "@id": "https://browfairypmu.com/#studio",
+  "name": "Ridhima's Browfairy PMU Studio",
+  "url": "https://browfairypmu.com/",
+  "telephone": "+919908063645",
+  "email": "ridhimas.browfairy@gmail.com",
+  "image": "https://browfairypmu.com/images/logo.png",
+  "address": {
+    "@type": "PostalAddress",
+    "streetAddress": "4th Floor, Times Padmini, Botanical Garden Road, above Olive Sweets, Sri Ramnagar Block C, Kondapur",
+    "addressLocality": "Hyderabad",
+    "addressRegion": "Telangana",
+    "postalCode": "500084",
+    "addressCountry": "IN"
+  },
+  "geo": {
+    "@type": "GeoCoordinates",
+    "latitude": 17.4614243,
+    "longitude": 78.3521074
+  },
+  "hasMap": "https://maps.google.com/maps?cid=4771915502352230333",
+  "areaServed": [
+    {
+      "@type": "AdministrativeArea",
+      "name": "Kondapur"
+    },
+    {
+      "@type": "AdministrativeArea",
+      "name": "Gachibowli"
+    },
+    {
+      "@type": "AdministrativeArea",
+      "name": "HITEC City"
+    },
+    {
+      "@type": "AdministrativeArea",
+      "name": "Madhapur"
+    },
+    {
+      "@type": "AdministrativeArea",
+      "name": "Jubilee Hills"
+    },
+    {
+      "@type": "City",
+      "name": "Hyderabad"
+    }
+  ],
+  "sameAs": [
+    "https://www.instagram.com/browfairy_pmustudio",
+    "https://maps.google.com/maps?cid=4771915502352230333"
+  ]
+},
+  "articleSection": "Permanent Makeup",
+  "inLanguage": "en-IN"
+}
+  </script>
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
   <link rel="stylesheet" href="style.css" />
   <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
 
   <style>
+    /* ===== PAGE LOADER — prevents FOUC ===== */
+    #page-loader {
+      position: fixed;
+      inset: 0;
+      z-index: 99999;
+      background: #000;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      transition: opacity 0.5s ease;
+    }
+    #page-loader.fade-out {
+      opacity: 0;
+      pointer-events: none;
+    }
+    .loader-spinner {
+      width: 38px;
+      height: 38px;
+      border: 3px solid rgba(255,255,255,0.08);
+      border-top-color: #DAA520;
+      border-radius: 50%;
+      animation: lspin 0.7s linear infinite;
+    }
+    @keyframes lspin { to { transform: rotate(360deg); } }
+
     .navbar { background-color: black; position: sticky; z-index: 1000; margin-bottom: 15px; }
     .navbar .nav-link { color: white; font-weight: 500; }
     .navbar .nav-link:hover, .navbar .nav-link:focus { color: #FFD700; }
@@ -36,6 +136,9 @@
 
     .dropdown { display: none; position: absolute; background-color: white; z-index: 1000; width: 100%; }
     .dropdown.show { display: block; }
+
+    /* Navbar visible on blog detail page */
+    .navbar { /* display: none !important; */ }
 
     .studio-logo { filter: brightness(1.2); }
     .logo-container { position: absolute; top: 3px; left: 20px; z-index: 1001; }
@@ -61,10 +164,10 @@
     .header-shrink .studio-logo { max-height: 50px; transition: all 0.3s ease-in-out; }
     .header-shrink .navbar-nav .nav-link { font-size: 1rem; padding-top: 5px; padding-bottom: 5px; transition: all 0.3s ease-in-out; }
 
-    .video-desktop, .video-mobile { position: fixed; top: 0; left: 0; width: 100%; height: 100vh; object-fit: cover; z-index: -1; }
-    .overlay { position: fixed; inset: 0; background: rgba(0,0,0,.55); z-index: -1; }
-    @media (min-width: 1025px) { .video-desktop { display: block; } .video-mobile { display: none; } }
-    @media (max-width: 1024px) { .video-desktop { display: none; } .video-mobile { display: block; } }
+    .video-desktop, .video-mobile { position: fixed; top: 0; left: 0; width: 100%; height: 100vh; object-fit: cover; z-index: -1; display: none !important; }
+    .overlay { position: fixed; inset: 0; background: rgba(0,0,0,.55); z-index: -1; display: none !important; }
+    @media (min-width: 1025px) { .video-desktop { display: none !important; } .video-mobile { display: none !important; } }
+    @media (max-width: 1024px) { .video-desktop { display: none !important; } .video-mobile { display: none !important; } }
 
     @media (max-width: 768px) {
       html, body { margin: 0 !important; padding: 0 !important; width: 100% !important; overflow-x: hidden !important; }
@@ -76,12 +179,14 @@
     }
 
     /* Article page styles */
+    body { background-color: #f5f5f5; }
+
     .article-wrapper {
       position: relative;
-      top: -30px;
+      top: 0;
       max-width: 800px;
       margin: 0 auto;
-      padding: 0 20px 80px;
+      padding: 40px 20px 80px;
     }
     .article-card {
       background: rgba(255,255,255,0.97);
@@ -98,6 +203,66 @@
       padding-bottom: 16px;
       border-bottom: 3px solid #DAA520;
       line-height: 1.4;
+    }
+    .article-studio-note { margin-top: 18px; font-size: 14px; color: #666; }
+    .article-card .article-cta {
+      margin: 36px 0 8px;
+      padding: 28px 24px;
+      background: #111;
+      border-radius: 10px;
+      text-align: center;
+    }
+    .article-card .article-cta h2 {
+      color: #FFD700 !important;
+      font-family: 'Playfair Display', serif;
+      font-size: 24px;
+      font-weight: 700;
+      margin: 0 0 10px;
+      padding: 0;
+      border: none;
+    }
+    .article-card .article-cta p {
+      color: #ffffff !important;
+      font-size: 16px;
+      line-height: 1.6;
+      margin: 0 0 20px;
+    }
+    .article-card .article-cta .cta-actions {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 12px;
+    }
+    .article-card .article-cta .cta-btn {
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      gap: 8px;
+      padding: 12px 26px;
+      background: gold;
+      color: #000 !important;
+      text-decoration: none;
+      border: 2px solid gold;
+      border-radius: 5px;
+      font-weight: bold;
+      font-size: 16px;
+    }
+    .article-card .article-cta .cta-btn:hover {
+      background: #e6c200;
+      border-color: #e6c200;
+      color: #000 !important;
+    }
+    .article-card .article-cta .cta-btn-insta {
+      background: transparent;
+      color: #FFD700 !important;
+    }
+    .article-card .article-cta .cta-btn-insta:hover {
+      background: #FFD700;
+      color: #000 !important;
+    }
+    .article-related {
+      margin-top: 28px;
+      padding-top: 8px;
     }
     .article-card p {
       color: #333;
@@ -166,26 +331,6 @@
     }
     .back-btn-bottom a:hover { background: #e6c200; }
 
-    /* Loading */
-    .article-skeleton {
-      background: rgba(255,255,255,0.97);
-      border-radius: 10px;
-      padding: 40px 35px;
-      box-shadow: 0 4px 15px rgba(0,0,0,0.1);
-    }
-    .skeleton-line {
-      height: 16px;
-      background: linear-gradient(90deg, #e0e0e0 25%, #f0f0f0 50%, #e0e0e0 75%);
-      background-size: 200% 100%;
-      animation: shimmer 1.5s infinite;
-      border-radius: 4px;
-      margin-bottom: 12px;
-    }
-    .skeleton-line.title { height: 28px; width: 60%; margin-bottom: 20px; }
-    .skeleton-line.medium { width: 80%; }
-    .skeleton-line.short { width: 40%; }
-    @keyframes shimmer { 0% { background-position: 200% 0; } 100% { background-position: -200% 0; } }
-
     /* Not found */
     .not-found-card {
       background: rgba(255,255,255,0.97);
@@ -213,7 +358,25 @@
       .article-card p, .article-card ul li { font-size: 15px; }
       .article-card h2 { font-size: 18px; }
       .article-card h3 { font-size: 16px; }
-      .article-skeleton { padding: 24px 18px; }
+
+      /* Mobile article header: four compact contact icons, no hamburger menu. */
+      .main-header { position: relative; height: 108px; min-height: 108px; background-color: #000 !important; }
+      .main-header .logo-container { top: 50%; transform: translateY(-50%); }
+      .main-header .navbar { position: absolute; top: 0; right: -5px; height: 100%; width: auto !important; margin: 0 !important; display: flex; align-items: center; }
+      .main-header .navbar .container-fluid { width: auto; height: 100%; padding: 0; display: flex; align-items: center; }
+      .main-header .navbar-brand,
+      .main-header .navbar-toggler { display: none !important; }
+      .main-header #navbarNavDropdown.collapse { display: flex !important; position: static; width: auto !important; margin: 0; padding: 0; background: transparent; }
+      .main-header #navbarNavDropdown .navbar-nav { flex-direction: row; align-items: center; gap: 9px !important; margin: 0; }
+      .main-header #navbarNavDropdown .nav-item:nth-child(1),
+      .main-header #navbarNavDropdown .nav-item:nth-child(2) { display: none !important; }
+      .main-header #navbarNavDropdown .nav-link span { display: none; }
+      .main-header #navbarNavDropdown .nav-link { width: 34px; height: 34px; margin: 0 !important; padding: 0 !important; display: flex; align-items: center; justify-content: center; font-size: 18px; border: 1px solid rgba(255, 215, 0, 0.85); border-radius: 50%; background: rgba(255, 215, 0, 0.1); box-shadow: 0 0 7px rgba(255, 215, 0, 0.48), 0 2px 7px rgba(0, 0, 0, 0.32); cursor: pointer; animation: nav-icon-glow 2s ease-in-out infinite; transition: transform 0.2s ease, color 0.2s ease, background-color 0.2s ease, box-shadow 0.2s ease; }
+      .main-header #navbarNavDropdown .nav-link:hover,
+      .main-header #navbarNavDropdown .nav-link:focus-visible { color: #000 !important; background: #FFD700; box-shadow: 0 0 15px rgba(255, 215, 0, 0.95), 0 0 0 3px rgba(255, 215, 0, 0.25); transform: translateY(-2px) scale(1.06); outline: none; animation-play-state: paused; }
+      .main-header #navbarNavDropdown .nav-link:active { transform: scale(0.94); }
+      @keyframes nav-icon-glow { 0%, 100% { box-shadow: 0 0 6px rgba(255, 215, 0, 0.38), 0 2px 7px rgba(0, 0, 0, 0.32); } 50% { box-shadow: 0 0 12px rgba(255, 215, 0, 0.82), 0 2px 9px rgba(0, 0, 0, 0.38); } }
+
     }
   </style>
 
@@ -275,12 +438,12 @@
     }
   </style>
 </head>
-<body>
+<body class="page-loaded">
 
   <!-- CHAT BOT CODE -->
   <button class="chat-icon-button" onclick="toggleChat()">
     <div class="icon-container">
-      <img id="chat-icon" src="icon.jpg" alt="Chat with Browfairy" class="avatar-icon">
+      <img id="chat-icon" src="images/icon.jpg" alt="Chat with Browfairy" class="avatar-icon">
       <div class="close-icon">&times;</div>
     </div>
     <div class="notification-badge">1</div>
@@ -289,7 +452,7 @@
   <div id="chatbot-popup">
     <header>
       <div class="header-content">
-        <span class="header-title">Browfairy</span>
+        <span class="header-title">Ridhima's Browfairy</span>
         <span class="header-tip">For accurate info, verify with us.</span>
       </div>
       <span class="close-btn" onclick="closeChat()">&times;</span>
@@ -321,7 +484,7 @@
 
   <header class="main-header">
     <div class="logo-container">
-      <img src="images/Browfairy Logo.png" alt="Browfairy Permanent Makeup Studio logo" class="studio-logo img-fluid">
+      <img src="images/Browfairy Logo.png" alt="Ridhima's Browfairy PMU Studio logo" class="studio-logo img-fluid">
     </div>
 
     <nav class="navbar navbar-expand-lg navbar-dark">
@@ -331,317 +494,183 @@
           <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse justify-content-end" id="navbarNavDropdown">
-          <ul class="navbar-nav">
-            <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
-            <li class="nav-item"><a class="nav-link" href="about.html">About</a></li>
-            <li class="has-dropdown nav-item">
-              <a class="nav-link" href="#">Services <i class="fa-solid fa-chevron-down chev"></i></a>
-              <ul class="dropdown">
-                <li><a class="dropdown-item" href="microblading.html">Microblading</a></li>
-                <li><a class="dropdown-item" href="combination-brows.html">Combination Brows</a></li>
-                <li><a class="dropdown-item" href="ombre-brows.html">Ombré Powder Brows</a></li>
-                <li><a class="dropdown-item" href="lip-neutralization.html">Lip Neutralization</a></li>
-                <li><a class="dropdown-item" href="lip-blush.html">Lip Blush</a></li>
-                <li><a class="dropdown-item" href="lash-liner.html">Lash Liner</a></li>
-                <li><a class="dropdown-item" href="nano-brows.html">Nano Hairstrokes Brows</a></li>
-                <li><a class="dropdown-item" href="nano-combination-brows.html">Nano Combination Brows</a></li>
-                <li><a class="dropdown-item" href="lash-lift.html">Lash Lift and Tint</a></li>
-                <li><a class="dropdown-item" href="brow-lamination.html">Brow Lamination and Tint</a></li>
-                <li><a class="dropdown-item" href="chemical-peels.html">Chemical Peels</a></li>
-                <li><a class="dropdown-item" href="hydrafacial.html">Hydrafacials</a></li>
-              </ul>
+          <ul class="navbar-nav" style="display: flex; align-items: center; gap: 30px;">
+            <li class="nav-item" style="padding: 0;">
+              <span style="color: #FFD700; font-weight: bold; font-size: 14px;">FREE CONSULTATION</span>
             </li>
-            <li class="nav-item"><a class="nav-link" href="training.html">Training</a></li>
-            <li class="nav-item"><a class="nav-link" href="blog.html">Blogs</a></li>
-            <li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
-            <li class="nav-item"><a class="nav-link" href="Faqs2.html">FAQS</a></li>
+            <li class="nav-item" style="padding: 0; color: #FFD700;">
+              <span style="font-size: 16px;">—</span>
+            </li>
+            <li class="nav-item" style="padding: 0; display: flex; align-items: center; gap: 8px;">
+              <a class="nav-link" href="tel:+919908063645" style="color: #FFD700; padding: 0; display: flex; align-items: center; gap: 8px; transition: all 0.3s ease;" onmouseover="this.style.color='#FFFFFF'; this.style.textShadow='0 0 10px #FFD700';" onmouseout="this.style.color='#FFD700'; this.style.textShadow='none';">
+                <i class="fa-solid fa-phone" style="font-size: 18px;"></i>
+                <span style="font-size: 12px;">PHONE</span>
+              </a>
+            </li>
+            <li class="nav-item" style="padding: 0; display: flex; align-items: center; gap: 8px;">
+              <a class="nav-link" href="https://www.instagram.com/browfairy_pmustudio?igsh=ZGJjem1yc3QzdWQz" target="_blank" style="color: #FFD700; padding: 0; display: flex; align-items: center; gap: 8px; transition: all 0.3s ease;" onmouseover="this.style.color='#FFFFFF'; this.style.textShadow='0 0 10px #FFD700';" onmouseout="this.style.color='#FFD700'; this.style.textShadow='none';">
+                <i class="fa-brands fa-instagram" style="font-size: 18px;"></i>
+                <span style="font-size: 12px;">INSTAGRAM</span>
+              </a>
+            </li>
+            <li class="nav-item" style="padding: 0; display: flex; align-items: center; gap: 8px;">
+              <a class="nav-link" href="mailto:ridhimas.browfairy@gmail.com" style="color: #FFD700; padding: 0; display: flex; align-items: center; gap: 8px; transition: all 0.3s ease;" onmouseover="this.style.color='#FFFFFF'; this.style.textShadow='0 0 10px #FFD700';" onmouseout="this.style.color='#FFD700'; this.style.textShadow='none';">
+                <i class="fa-solid fa-envelope" style="font-size: 18px;"></i>
+                <span style="font-size: 12px;">EMAIL</span>
+              </a>
+            </li>
+            <li class="nav-item" style="padding: 0; display: flex; align-items: center; gap: 8px;">
+              <a class="nav-link" href="https://maps.app.goo.gl/kJdRqsQdHxgS2x946?g_st=aw" target="_blank" style="color: #FFD700; padding: 0; display: flex; align-items: center; gap: 8px; transition: all 0.3s ease;" onmouseover="this.style.color='#FFFFFF'; this.style.textShadow='0 0 10px #FFD700';" onmouseout="this.style.color='#FFD700'; this.style.textShadow='none';">
+                <i class="fa-solid fa-location-dot" style="font-size: 18px;"></i>
+                <span style="font-size: 12px;">LOCATION</span>
+              </a>
+            </li>
           </ul>
         </div>
       </div>
     </nav>
   </header>
 
-  <!-- Article Content Area -->
-  <div class="article-wrapper" id="article-area"></div>
-
-  <!-- ===== GOOGLE SHEETS CSV BLOG SYSTEM ===== -->
-  <script>
-    var SHEET_CSV_URL = "https://docs.google.com/spreadsheets/d/e/2PACX-1vTYYq5hKVO3qNZ6SITdXvy26aC4jJsdYCKSxTl_cGTVpx2zwEUPQiCtpRNELEmvZ-pkTfB_jYEB2ZqT/pub?output=csv";
-
-    var CACHE_KEY = 'browfairy_blogs_csv_cache';
-    var CACHE_TTL = 2 * 60 * 1000;
-
-    function escapeHtml(value) {
-      if (!value) return '';
-      return String(value)
-        .replace(/&/g, '&amp;')
-        .replace(/</g, '&lt;')
-        .replace(/>/g, '&gt;')
-        .replace(/"/g, '&quot;')
-        .replace(/'/g, '&#39;');
-    }
-
-    /* ---- CSV parser ---- */
-    function parseCSV(text) {
-      var rows = [];
-      var currentRow = [];
-      var currentField = '';
-      var inQuotes = false;
-      var i = 0;
-
-      while (i < text.length) {
-        var ch = text[i];
-
-        if (inQuotes) {
-          if (ch === '"') {
-            if (i + 1 < text.length && text[i + 1] === '"') {
-              currentField += '"';
-              i += 2;
-              continue;
-            } else {
-              inQuotes = false;
-              i++;
-              continue;
-            }
-          } else {
-            currentField += ch;
-            i++;
-            continue;
-          }
-        }
-
-        if (ch === '"') {
-          inQuotes = true;
-          i++;
-        } else if (ch === ',') {
-          currentRow.push(currentField.trim());
-          currentField = '';
-          i++;
-        } else if (ch === '\r') {
-          i++;
-        } else if (ch === '\n') {
-          currentRow.push(currentField.trim());
-          if (currentRow.length > 0 && currentRow.some(function(f) { return f !== ''; })) {
-            rows.push(currentRow);
-          }
-          currentRow = [];
-          currentField = '';
-          i++;
-        } else {
-          currentField += ch;
-          i++;
-        }
-      }
-
-      currentRow.push(currentField.trim());
-      if (currentRow.length > 0 && currentRow.some(function(f) { return f !== ''; })) {
-        rows.push(currentRow);
-      }
-
-      return rows;
-    }
-
-    /* ---- Markdown to HTML ---- */
-    function bodyToHtml(bodyText) {
-      if (!bodyText) return '';
-      var lines = bodyText.split('\n');
-      var html = '';
-      var inList = false;
-
-      for (var i = 0; i < lines.length; i++) {
-        var line = lines[i];
-
-        if (inList && line.indexOf('- ') !== 0) {
-          html += '</ul>';
-          inList = false;
-        }
-
-        if (line.trim() === '') {
-          continue;
-        }
-
-        if (line.indexOf('## ') === 0) {
-          html += '<h2>' + escapeHtml(line.substring(3).trim()) + '</h2>';
-        } else if (line.indexOf('### ') === 0) {
-          html += '<h3>' + escapeHtml(line.substring(4).trim()) + '</h3>';
-        } else if (line.indexOf('- ') === 0) {
-          if (!inList) {
-            html += '<ul>';
-            inList = true;
-          }
-          html += '<li>' + escapeHtml(line.substring(2).trim()) + '</li>';
-        } else {
-          html += '<p>' + escapeHtml(line.trim()) + '</p>';
-        }
-      }
-
-      if (inList) {
-        html += '</ul>';
-      }
-
-      return html;
-    }
-
-    /* ---- Fetch with cache ---- */
-    function fetchFromSheet() {
-      return fetch(SHEET_CSV_URL)
-        .then(function(response) {
-          if (!response.ok) throw new Error('HTTP ' + response.status);
-          return response.text();
-        })
-        .then(function(csvText) {
-          var rows = parseCSV(csvText);
-          if (rows.length < 2) return { blogs: [] };
-
-          var headers = rows[0];
-          var blogs = [];
-
-          for (var i = 1; i < rows.length; i++) {
-            var row = {};
-            for (var j = 0; j < headers.length; j++) {
-              row[headers[j].toLowerCase().trim()] = rows[i][j] || '';
-            }
-
-            if (!row.title || row.title.trim() === '') continue;
-
-            blogs.push({
-              id: row.id || ('article' + i),
-              title: row.title.trim(),
-              excerpt: row.excerpt || '',
-              body: row.body || ''
-            });
-          }
-
-          var data = { blogs: blogs };
-          try {
-            localStorage.setItem(CACHE_KEY, JSON.stringify({ data: data, timestamp: Date.now() }));
-          } catch (e) {}
-          return data;
-        });
-    }
-
-    /* ---- Get article ID from URL ---- */
-    function getArticleId() {
-      var params = new URLSearchParams(window.location.search);
-      return params.get('article') || '';
-    }
-
-    /* ---- Render skeleton ---- */
-    function renderSkeleton(container) {
-      container.innerHTML =
-        '<a href="blog.html" class="back-btn-top">\u2190 Back to Blogs</a>' +
-        '<div class="article-skeleton">' +
-        '<div class="skeleton-line title"></div>' +
-        '<div class="skeleton-line"></div>' +
-        '<div class="skeleton-line medium"></div>' +
-        '<div class="skeleton-line"></div>' +
-        '<div class="skeleton-line short"></div>' +
-        '<div class="skeleton-line" style="margin-top:30px;"></div>' +
-        '<div class="skeleton-line medium"></div>' +
-        '<div class="skeleton-line"></div>' +
-        '</div>';
-    }
-
-    /* ---- Render article ---- */
-    function renderArticle(blog, container) {
-      document.title = blog.title + ' – Browfairy';
-      container.innerHTML =
-        '<a href="blog.html" class="back-btn-top">\u2190 Back to Blogs</a>' +
-        '<div class="article-card">' +
-        '<h1>' + escapeHtml(blog.title) + '</h1>' +
-        bodyToHtml(blog.body) +
-        '</div>' +
-        '<div class="back-btn-bottom">' +
-        '<a href="blog.html">\u2190 Back to All Blogs</a>' +
-        '</div>';
-      window.scrollTo(0, 0);
-    }
-
-    /* ---- Render not found ---- */
-    function renderNotFound(container) {
-      container.innerHTML =
-        '<a href="blog.html" class="back-btn-top">\u2190 Back to Blogs</a>' +
-        '<div class="not-found-card">' +
-        '<h2>Article Not Found</h2>' +
-        '<p>The blog post you are looking for does not exist or may have been removed.</p>' +
-        '<a href="blog.html" class="back-btn-top" style="margin-bottom:0;">\u2190 Back to All Blogs</a>' +
-        '</div>';
-    }
-
-    /* ---- Init ---- */
-    document.addEventListener('DOMContentLoaded', function() {
-      var articleArea = document.getElementById('article-area');
-      if (!articleArea) return;
-
-      var articleId = getArticleId();
-      if (!articleId) {
-        renderNotFound(articleArea);
-        return;
-      }
-
-      renderSkeleton(articleArea);
-
-      // Try cache first
-      var useCache = false;
-      try {
-        var cached = JSON.parse(localStorage.getItem(CACHE_KEY));
-        if (cached && cached.data && cached.data.blogs && (Date.now() - cached.timestamp < CACHE_TTL)) {
-          var found = null;
-          for (var i = 0; i < cached.data.blogs.length; i++) {
-            if (cached.data.blogs[i].id === articleId) { found = cached.data.blogs[i]; break; }
-          }
-          if (found) {
-            renderArticle(found, articleArea);
-            useCache = true;
-            fetchFromSheet().catch(function() {});
-          }
-        }
-      } catch (e) {}
-
-      if (useCache) return;
-
-      // Fetch fresh
-      fetchFromSheet()
-        .then(function(data) {
-          var blogs = (data && data.blogs) ? data.blogs : [];
-          var found = null;
-          for (var i = 0; i < blogs.length; i++) {
-            if (blogs[i].id === articleId) { found = blogs[i]; break; }
-          }
-
-          if (found) {
-            renderArticle(found, articleArea);
-          } else {
-            renderNotFound(articleArea);
-          }
-        })
-        .catch(function(error) {
-          console.error('Failed to load article:', error);
-
-          try {
-            var cached = JSON.parse(localStorage.getItem(CACHE_KEY));
-            if (cached && cached.data && cached.data.blogs) {
-              var found = null;
-              for (var i = 0; i < cached.data.blogs.length; i++) {
-                if (cached.data.blogs[i].id === articleId) { found = cached.data.blogs[i]; break; }
-              }
-              if (found) {
-                renderArticle(found, articleArea);
-                return;
-              }
-            }
-          } catch (e) {}
-
-          articleArea.innerHTML =
-            '<a href="blog.html" class="back-btn-top">\u2190 Back to Blogs</a>' +
-            '<div class="not-found-card">' +
-            '<h2>Unable to Load</h2>' +
-            '<p>Could not load this article right now. Please check your connection and try again.</p>' +
-            '<a href="blog.html" class="back-btn-top" style="margin-bottom:0;">\u2190 Back to All Blogs</a>' +
-            '</div>';
-        });
-    });
-  </script>
+  <div class="article-wrapper">
+    <a href="blog.html" class="back-btn-top">← Back to Blogs</a>
+    <article class="article-card">
+      <h1>How to Avoid Fake-Looking Permanent Makeup</h1>
+<p>One of the biggest fears people have before booking a permanent makeup appointment is simple:&quot;I don&#x27;t want it to look obvious.&quot;It&#x27;s a concern we hear often, and for good reason.</p>
+<p>Most people considering powder brows, nano brows, or lip blush aren&#x27;t looking for dramatic transformations. They simply want to wake up looking polished, refreshed, and naturally beautiful.</p>
+<p>Yet we&#x27;ve all seen examples of permanent makeup that immediately looks artificial.</p>
+<p>So why does this happen?</p>
+<p>And more importantly, how can you avoid it?</p>
+<p>Let&#x27;s explore the most common reasons permanent makeup can look unnatural.</p>
+<h2>The Goal of Permanent Makeup Has Changed</h2>
+<p>Years ago, permanent makeup often focused on creating strong definition and highly visible results.</p>
+<p>Today&#x27;s beauty standards are different.</p>
+<p>Modern PMU is about enhancement, not replacement.</p>
+<p>The best permanent makeup doesn&#x27;t create a new face—it enhances the one you already have.</p>
+<p>When done correctly, people notice that you look well-rested and confident, not that you&#x27;ve had a cosmetic procedure.</p>
+<h2>Mistake #1: Choosing a Shape That Doesn&#x27;t Suit the Face</h2>
+<p>One of the most common reasons brows look fake is because they were designed without considering the individual&#x27;s facial features.</p>
+<p>Every face is different.</p>
+<p>Factors that influence ideal brow design include:</p>
+<ul>
+<li>Face shape</li>
+<li>Eye spacing</li>
+<li>Brow bone structure</li>
+<li>Forehead proportions</li>
+<li>Existing brow growth pattern</li>
+</ul>
+<p>A brow shape that looks beautiful on social media may not suit your unique facial structure.</p>
+<p>The most natural results come from customization—not imitation.</p>
+<h2>Mistake #2: Going Too Dark</h2>
+<p>Many clients initially believe darker brows will produce stronger results.</p>
+<p>In reality, overly dark pigment is one of the quickest ways to create an artificial appearance.</p>
+<p>Natural brows contain variation in color, density, and texture.</p>
+<p>When brows are too dark:</p>
+<ul>
+<li>They can overpower facial features</li>
+<li>They may appear harsh in natural light</li>
+<li>They often draw attention for the wrong reasons</li>
+</ul>
+<p>Experienced artists understand that healed results should look soft and balanced rather than excessively bold.</p>
+<h2>Mistake #3: Following Trends Instead of Facial Harmony</h2>
+<p>Beauty trends change constantly.</p>
+<p>What is fashionable today may feel outdated a few years from now.</p>
+<p>Permanent makeup should be designed with longevity in mind.</p>
+<p>Brows that are:</p>
+<ul>
+<li>Extremely thick</li>
+<li>Overly angular</li>
+<li>Excessively dramaticmay look trendy in photos but less natural in everyday life.</li>
+</ul>
+<p>Timeless designs tend to age better than trend-driven ones.</p>
+<h2>Mistake #4: Ignoring Skin Type</h2>
+<p>Different skin types heal differently.</p>
+<p>A technique that works beautifully on one person may not be suitable for another.</p>
+<p>Factors such as:</p>
+<ul>
+<li>Oily skin</li>
+<li>Dry skin</li>
+<li>Sensitive skin</li>
+<li>Mature skinall influence how pigment heals and settles.</li>
+</ul>
+<p>A skilled PMU artist adjusts their approach based on the client&#x27;s skin characteristics rather than applying the same technique to everyone.</p>
+<h2>Mistake #5: Poor Symmetry and Mapping</h2>
+<p>Humans naturally notice asymmetry.</p>
+<p>Even small imbalances can make brows appear unnatural.</p>
+<p>Professional brow design requires:</p>
+<ul>
+<li>Detailed measurements</li>
+<li>Facial analysis</li>
+<li>Precision mapping</li>
+<li>Careful planning</li>
+</ul>
+<p>The procedure itself is important, but the design process that happens before the procedure is often what determines the quality of the final result.</p>
+<h2>Mistake #6: Choosing a Studio Based Solely on Price</h2>
+<p>Permanent makeup is one of the few beauty services where mistakes can remain visible for years.</p>
+<p>When quality is compromised:</p>
+<ul>
+<li>Corrections may be required</li>
+<li>Additional sessions may be needed</li>
+<li>Laser removal may become necessary</li>
+</ul>
+<p>The initial savings can quickly disappear.</p>
+<p>Many clients who seek corrective work tell a similar story: they focused on price rather than expertise.</p>
+<h2>What Natural-Looking PMU Actually Looks Like</h2>
+<p>Natural-looking permanent makeup should:</p>
+<ul>
+<li>Complement your features</li>
+<li>Match your skin tone</li>
+<li>Respect your facial proportions</li>
+<li>Heal softly</li>
+<li>Enhance rather than dominate</li>
+</ul>
+<p>The result should feel like an improved version of your natural appearance—not a completely different look.</p>
+<h2>Questions to Ask Before Choosing a PMU Artist</h2>
+<p>Before booking, consider asking:</p>
+<ul>
+<li>How do you customize brow design?</li>
+<li>What technique is best for my skin type?</li>
+<li>Can I see healed results?</li>
+<li>How do you select pigments?</li>
+<li>What does your consultation process involve?</li>
+</ul>
+<p>The answers often reveal more about a studio&#x27;s expertise than a gallery of fresh results.</p>
+<h2>Our Approach at Ridhima's Browfairy PMU Studio</h2>
+<p>At Ridhima's Browfairy PMU Studio, our philosophy is simple:Permanent makeup should look beautiful, not obvious.</p>
+<p>Every client receives a personalized consultation, facial analysis, and customized design tailored to their unique features and aesthetic goals.</p>
+<p>We believe the best results are often the most subtle—the ones that create harmony, balance, and confidence without appearing overdone.</p>
+<p>Because the most successful permanent makeup isn&#x27;t the work that gets noticed.</p>
+<p>It&#x27;s the work that looks like it was always meant to be there.</p>
+<h2>Frequently Asked Questions</h2>
+<h3>Why do some permanent makeup brows look fake?</h3>
+<p>Common reasons include poor shape selection, overly dark pigments, lack of customization, poor symmetry, and techniques that don&#x27;t suit the client&#x27;s skin type.</p>
+<h3>Can permanent makeup look completely natural?</h3>
+<p>Yes. Modern PMU techniques are designed specifically to create soft, natural-looking enhancements when performed by a skilled artist.</p>
+<h3>Is darker pigment better?</h3>
+<p>Not necessarily. The goal is to select a pigment that complements your skin tone and heals naturally over time.</p>
+<h3>How can I avoid unnatural PMU results?</h3>
+<p>Choose an experienced artist, review healed results, prioritize consultation quality, and focus on customization rather than trends.</p>
+      <div class="article-cta">
+        <h2>Book a free consultation now</h2>
+        <p>Want results that look like you, not like makeup? Ridhima will map a natural plan around your features and skin type.</p>
+        <div class="cta-actions">
+          <a class="cta-btn" href="https://wa.me/919908063645?text=Hi%20Browfairy%2C%20I%27d%20like%20a%20free%20consultation%20about%20natural-looking%20permanent%20makeup." target="_blank" rel="noopener noreferrer"><i class="fa-brands fa-whatsapp"></i> WhatsApp to book</a>
+          <a class="cta-btn cta-btn-insta" href="https://www.instagram.com/browfairy_pmustudio" target="_blank" rel="noopener noreferrer"><i class="fa-brands fa-instagram"></i> @browfairy_pmustudio</a>
+        </div>
+      </div>
+      <p class="article-studio-note">Ridhima's Browfairy PMU Studio, Hyderabad.</p>
+      <div class="article-related">
+      <h2>More from the blog</h2>
+      <ul>
+          <li><a href="how-to-choose-permanent-makeup-studio-hyderabad.html">How to Choose the Best Permanent Makeup Studio in Hyderabad</a></li>
+          <li><a href="pigment-selection-indian-skin-tones.html">The Science Behind Pigment Selection for Indian Skin Tones: Why It Matters More Than You Think</a></li>
+          <li><a href="natural-looking-brows.html">The Art of Natural-Looking Brows: Why Less Is Often More</a></li>
+      </ul>
+      </div>
+    </article>
+    <div class="back-btn-bottom">
+      <a href="blog.html">← Back to All Blogs</a>
+    </div>
+  </div>
 
   <!-- Bootstrap JS Bundle -->
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
@@ -719,7 +748,7 @@
   <!-- Chatbot Script -->
   <script>
     var responses = {
-      "hi": "Hi, I am your Browfairy. ",
+      "hi": "Hi, I am your assistant at Ridhima's Browfairy PMU Studio. ",
       "hello": "Hello! Feel free to ask me any questions about our services. For accurate info, it is always best to call or WhatsApp us.",
       "timings": "We are open from 11 AM to 8 PM every day.",
       "what are your timings": "We are open from 11 AM to 8 PM every day.",
@@ -757,8 +786,8 @@
       chatState.hasNewMessage = false;
       chatState.unreadCount = 0;
       chatButton.classList.remove("new-message");
-      if (chatContent.innerHTML.indexOf("Welcome to Browfairy!") === -1) {
-        appendMessage("Bot", "Welcome to Browfairy! I can assist you with FAQs and service-related questions.");
+      if (chatContent.innerHTML.indexOf("Welcome to Ridhima's Browfairy PMU Studio!") === -1) {
+        appendMessage("Bot", "Welcome to Ridhima's Browfairy PMU Studio! I can assist you with FAQs and service-related questions.");
         showQuickReplies(["What is microblading", "Is it safe", "Does it hurt"]);
       }
     }
@@ -835,101 +864,6 @@
     }, 3000);
   </script>
 
-  <!-- Free Consultation Section -->
-  <section class="gallery-contact-section" style="background-color: grey; color: white; padding: 40px 0; position: relative;">
-    <div class="container">
-      <div class="row align-items-start g-5">
-        <!-- Left Column: Images -->
-        <div class="col-md-6 col-12 d-flex gap-3 justify-content-center slide-on-scroll">
-          <div style="width: 48%; overflow: hidden; border-radius: 20px;">
-            <img src="images/service1.jpg" alt="Browfairy PMU studio in Kondapur, Hyderabad" class="img-fluid" style="object-fit: cover; height: 100%;">
-          </div>
-          <div style="width: 48%; overflow: hidden; border-radius: 20px;">
-            <img src="images/nano-brows.jpg" alt="Nano brows before and after at Browfairy Hyderabad" class="img-fluid" style="object-fit: cover; height: 100%;">
-          </div>
-        </div>
-
-        <!-- Right Column: Free Consultation Info -->
-        <div class="col-md-6 col-12 d-flex flex-column align-items-center gap-4 slide-on-scroll">
-          <div class="follow-text" style="font-size: 45px;">Free Consultation</div>
-
-          <!-- Phone -->
-          <div class="text-center">
-            <i class="fa-solid fa-phone" style="color: #FFD700; margin-right: 8px; font-size: 25px;"></i>
-            <strong style="font-size: 25px;">PHONE</strong><br>
-            <a href="tel:+919908063645" class="glow-text-button">+91 9908063645</a>
-            <div style="height: 2px; width: 180px; background-color: white; margin: 20px auto 0;"></div>
-          </div>
-          
-          <!-- Instagram -->
-          <div class="text-center">
-            <div style="font-size: 25px; color: white;">
-              <i class="fa-brands fa-instagram" style="margin-right: 8px;"></i>Instagram
-            </div>
-
-            <div style="font-size: 22px; font-weight: 600; margin-top: 10px;">
-              <a href="https://www.instagram.com/browfairy_pmustudio?igsh=ZGJjem1yc3QzdWQz" 
-                 target="_blank" 
-                 class="glow-text-button">
-                @browfairy_pmustudio
-              </a>
-            </div>
-
-            <div style="height: 2px; width: 250px; background-color: white; margin: 20px auto 0;"></div>
-          </div>
-
-          <!-- Email -->
-          <div class="text-center">
-            <i class="fa-solid fa-envelope" style="color: #FFD700; margin-right: 8px; font-size: 22px;"></i>
-            <strong style="font-size: 22px;">Email</strong><br>
-            <a href="mailto:ridhimas.browfairy@gmail.com" class="glow-text-button" style="font-size: 18px; margin-top: 10px; display: inline-block;">ridhimas.browfairy@gmail.com</a>
-            <div style="height: 2px; width: 300px; background-color: white; margin: 20px auto 0;"></div>
-          </div>
-
-          <!-- Location -->
-          <div class="text-center">
-            <i class="fa-solid fa-location-dot" style="color: #FFD700; margin-right: 8px; font-size: 25px;"></i>
-            <strong style="font-size: 25px;">LOCATION</strong><br>
-            <a href="https://maps.app.goo.gl/kJdRqsQdHxgS2x946?g_st=aw" target="_blank" rel="noopener noreferrer" class="glow-text-button" style="font-size: 18px; margin-top: 10px; display: inline-block;">
-              4th Floor, Times Padmini, Botanical Garden Road, Kondapur, Hyderabad 500084
-            </a>
-            <div style="height: 2px; width: 450px; background-color: white; margin: 20px auto 0;"></div>
-          </div>
-        </div>
-      </div>
-    </div>
-    
-    <style>
-      .glow-text-button {
-        color: white;
-        text-decoration: none;
-        display: inline-block;
-        position: relative;
-        font-size: inherit;
-        font-weight: inherit;
-        cursor: pointer;
-        transition: all 0.3s ease;
-        animation: text-glow 2s ease-in-out infinite;
-      }
-      
-      /* Text glow animation */
-      @keyframes text-glow {
-        0% {
-          text-shadow: 0 0 5px rgba(255, 215, 0, 0.7),
-                        0 0 10px rgba(255, 215, 0, 0.5);
-        }
-        50% {
-          text-shadow: 0 0 10px rgba(255, 215, 0, 0.9),
-                        0 0 20px rgba(255, 215, 0, 0.7),
-                        0 0 30px rgba(255, 215, 0, 0.5);
-        }
-        100% {
-          text-shadow: 0 0 5px rgba(255, 215, 0, 0.7),
-                        0 0 10px rgba(255, 215, 0, 0.5);
-        }
-      }
-    </style>
-  </section>
 
 
 
